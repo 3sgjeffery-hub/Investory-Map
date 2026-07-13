@@ -94,7 +94,7 @@ export default function Home() {
             background: "#3730a3",
             border: "1px solid #6366f1",
             borderRadius: 6,
-            color: "#1e293b",
+            color: "#ffffff",
             fontSize: 13,
             fontFamily: "'Space Grotesk', sans-serif",
             fontWeight: 600,
