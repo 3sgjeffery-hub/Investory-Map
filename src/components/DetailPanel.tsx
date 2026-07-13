@@ -400,10 +400,10 @@ export default function DetailPanel({
           <div style={{ flex: 1 }} />
           <button
             className="btn no-drag"
-            style={{ fontSize: 9, padding: "3px 8px" }}
+            style={{ fontSize: 9, padding: "3px 8px", color: "#b45309", background: "#fffbeb", borderColor: "#fcd34d", fontWeight: 600 }}
             onClick={onReportFault}
           >
-            ⚠ Fault
+            ⚠ Report Fault
           </button>
         </div>
       </div>
