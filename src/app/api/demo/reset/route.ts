@@ -214,6 +214,13 @@ export async function POST() {
 
     // 3. Read and parse the CSV file
     const csvPath = path.join(process.cwd(), "prisma", "demo-data.csv");
+    if (!fs.existsSync(csvPath)) {
+      console.error("[api/demo/reset] CSV not found at:", csvPath, "cwd:", process.cwd());
+      return NextResponse.json(
+        { error: "Demo data file not found" },
+        { status: 500 }
+      );
+    }
     const csvText = fs.readFileSync(csvPath, "utf-8");
     const allRows = parseCSV(csvText);
 

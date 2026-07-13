@@ -14,8 +14,13 @@ export default function DemoButton() {
     setError("");
 
     try {
-      // Ensure demo school and user exist, seed data if first run
-      await fetch("/api/demo/reset", { method: "POST" });
+      const res = await fetch("/api/demo/reset", { method: "POST" });
+      if (!res.ok) {
+        const body = await res.json().catch(() => ({}));
+        setError(body.error || "Failed to set up demo");
+        setLoading(false);
+        return;
+      }
 
       const result = await signIn("credentials", {
         email: "demo@investorymap.com",
@@ -24,15 +29,15 @@ export default function DemoButton() {
       });
 
       if (result?.error) {
-        setError("Demo not available");
+        setError("Login failed after setup");
         setLoading(false);
         return;
       }
 
       router.push("/dashboard");
       router.refresh();
-    } catch {
-      setError("Demo not available");
+    } catch (e) {
+      setError(e instanceof Error ? e.message : "Network error");
       setLoading(false);
     }
   };
