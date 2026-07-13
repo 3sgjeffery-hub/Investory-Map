@@ -408,6 +408,12 @@ export default function DashboardPage() {
         onSettings={() => setModal({ type: "settings" })}
         onProfile={() => setModal({ type: "changepassword" })}
         userName={(session?.user as { name?: string })?.name ?? ""}
+        schoolName={(session?.user as { schoolName?: string })?.schoolName ?? ""}
+        onResetDemo={async () => {
+          if (!confirm("Reset demo to default state? All changes will be lost.")) return;
+          await fetch("/api/demo/reset", { method: "POST" });
+          window.location.reload();
+        }}
       />
 
       <StatsBar stats={stats} onClickStat={handleStatClick} />

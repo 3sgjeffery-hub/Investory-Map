@@ -1,4 +1,5 @@
 import Link from "next/link";
+import DemoButton from "@/components/DemoButton";
 
 const features = [
   {
@@ -162,23 +163,26 @@ export default function Home() {
           Track faults, loans, repairs, and movement — all in one place.
         </p>
 
-        <Link
-          href="/login"
-          style={{
-            display: "inline-block",
-            padding: "13px 36px",
-            background: "linear-gradient(135deg,#4f46e5,#7c3aed)",
-            borderRadius: 8,
-            color: "#fff",
-            fontSize: 15,
-            fontWeight: 600,
-            fontFamily: "'Space Grotesk', sans-serif",
-            textDecoration: "none",
-            boxShadow: "0 0 24px rgba(99,102,241,0.35)",
-          }}
-        >
-          Go to Dashboard →
-        </Link>
+        <div style={{ display: "flex", gap: 14, justifyContent: "center", flexWrap: "wrap" }}>
+          <Link
+            href="/login"
+            style={{
+              display: "inline-block",
+              padding: "13px 36px",
+              background: "linear-gradient(135deg,#4f46e5,#7c3aed)",
+              borderRadius: 8,
+              color: "#fff",
+              fontSize: 15,
+              fontWeight: 600,
+              fontFamily: "'Space Grotesk', sans-serif",
+              textDecoration: "none",
+              boxShadow: "0 0 24px rgba(99,102,241,0.35)",
+            }}
+          >
+            Go to Dashboard →
+          </Link>
+          <DemoButton />
+        </div>
       </section>
 
       {/* Divider */}

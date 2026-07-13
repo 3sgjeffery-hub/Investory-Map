@@ -12,16 +12,47 @@ interface HeaderProps {
   onSettings: () => void;
   onProfile: () => void;
   userName: string;
+  schoolName?: string;
+  onResetDemo?: () => void;
 }
 
 const APP_TITLE = "Inventory Map";
 const APP_SUBTITLE = "Room-based Asset & Inventory Manager";
 
 export default function Header({
-  moveLogCount, isAdmin, onReport, onExportCSV, onImport, onMoveLog, onSettings, onProfile, userName,
+  moveLogCount, isAdmin, onReport, onExportCSV, onImport, onMoveLog, onSettings, onProfile, userName, schoolName, onResetDemo,
 }: HeaderProps) {
   return (
     <div style={{ background: "#ffffff", borderBottom: "1px solid #e2e8f0", flexShrink: 0 }}>
+      {schoolName === "Demo School" && (
+        <div style={{
+          background: "linear-gradient(135deg, #4f46e5, #7c3aed)",
+          color: "#fff",
+          padding: "6px 16px",
+          fontSize: 11,
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "space-between",
+          fontFamily: "'Space Grotesk', sans-serif",
+        }}>
+          <span>Demo Mode — Explore all features freely</span>
+          <button
+            onClick={onResetDemo}
+            style={{
+              background: "rgba(255,255,255,0.2)",
+              border: "1px solid rgba(255,255,255,0.3)",
+              borderRadius: 4,
+              color: "#fff",
+              fontSize: 10,
+              padding: "3px 10px",
+              cursor: "pointer",
+              fontFamily: "inherit",
+            }}
+          >
+            Reset Demo
+          </button>
+        </div>
+      )}
       {/* Row 1: Logo + user (clickable) + sign out */}
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "8px 16px", gap: 8 }}>
         <div style={{ display: "flex", alignItems: "center", gap: 10, minWidth: 0 }}>

@@ -1,0 +1,395 @@
+ID,Label,AssetCode,Type,Brand,Model,Serial,Location,Cost,WarrantyEnd,Status,Loanable,LoanedTo,Remark,Comment,OpenFaults,Repairs
+cmp66oaad006v2jo2hdrcv42d,-,0054-000282,Portable HD,HP,PX3100,8CY4501647,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad006w2jo2ws5y1zy6,-,0054-000331,Portable HD,Seagate,SRD0SP0,NA5BP0F2,Custody,,,Operational,Yes,,,,0,0
+cmp66oaae007t2jo2nnhcbizs,-,,Portable HD,STOREJET,SJ25H3B,D553270456,teacher 5,,,Operational,Yes,,,,0,0
+cmp66oaaj00lx2jo2b7mas166,2018VT01,NIL,Portable Mic,S CHIAYO,ITX2,4SJ-1770254,Teacher 1,60,,Operational,Yes,,,,0,0
+cmp66oaaj00lz2jo2y1na8n9g,2018VT02,NIL,Portable Mic,S CHIAYO,ITX2,4SJ-16C0240,Teacher 2,60,,Operational,Yes,,,,0,0
+cmp66oaaj00m12jo2j2kakicj,2018VT03,NIL,Portable Mic,S CHIAYO,ITX2,4SJ-1770051,Teacher 3,60,,Operational,Yes,,,,0,0
+cmp66oaaj00m32jo2guyi2dxn,2018VT04,NIL,Portable Mic,S CHIAYO,ITX2,4SJ-1750147,Teacher 4,60,,Operational,Yes,,,,0,0
+cmp66oaaj00m52jo2hf50dclr,2018VT05,NIL,Portable Mic,S CHIAYO,ITX2,4SJ-1720004,Teacher 5,60,,Operational,Yes,,,,0,0
+cmp66oaaj00m72jo27tqggd8h,2018VT06,NIL,Portable Mic,S CHIAYO,ITX2,4SJ-1770050,Teacher 6,60,,Operational,Yes,,,,0,0
+cmp66oaaj00m92jo2s9m0z0d7,2018VT07,NIL,Portable Mic,S CHIAYO,ITX2,4SJ-1770055,Teacher 7,60,,Operational,Yes,,,,0,0
+cmp66oaaj00mb2jo2pi6t25q1,2018VT08,NIL,MIC,S CHIAYO,ITX2,4SJ-1770045,Teacher 8,0,,Operational,Yes,,,,0,0
+cmp66oaaj00ma2jo24msphg72,2018VT08,NIL,MIC,S CHIAYO,HC-42,4SJ-1750234,Teacher 9,0,,Operational,Yes,,,,0,0
+cmp66oaaj00md2jo2mw4oyti4,2018VT09,NIL,MIC,S CHIAYO,ITX3,4SJ-1770227,Teacher 10,0,,Operational,Yes,,,,0,0
+cmp66oaaj00mc2jo2uahyml5f,2018VT09,NIL,MIC,S CHIAYO,ITX3,4SJ-1770227,Teacher 11,0,,Operational,Yes,,,,0,0
+cmp66oaaj00mf2jo2y9lmmr4l,2018VT10,NIL,Portable Mic,S CHIAYO,ITX2,4SJ-1770044,Teacher 12,60,,Operational,Yes,,,,0,0
+cmp66oaak00mh2jo263z32kln,2018VT11,NIL,Portable Mic,S CHIAYO,ITX2,4SJ-1770253,Teacher 13,60,,Operational,Yes,,,,0,0
+cmp66oaak00mj2jo22rr79sni,2018VT12,NIL,Portable Mic,S CHIAYO,ITX3,4SJ-1770256,Teacher 14,60,,Operational,Yes,,,,0,0
+cmp66oaaj00lh2jo22ah6ki1z,2018VT13,NIL,MIC,S CHIAYO,ITX3,4SJ-1770073,Teacher 15,0,,Operational,No,,,Spoiled,1,0
+cmp66oaaj00lg2jo28j18blb0,2018VT13,NIL,MIC,S CHIAYO,HC-43,4SJ-1750192,Teacher 16,0,,Operational,No,,,Spoiled,1,0
+cmp66oaak00ml2jo2vgq4qpt1,2018VT14,NIL,Portable Mic,S CHIAYO,ITX3,4SJ-1770248,Teacher 1,60,,Operational,Yes,,,,0,0
+cmp66oaaj00li2jo29u3g55q0,2018VT15,NIL,MIC,S CHIAYO,HC-43,4SJ-1750215,Teacher 2,0,,Others,Yes,,,Spoiled,1,0
+cmp66oaaj00lj2jo2cqihkrow,2018VT15,NIL,MIC,S CHIAYO,ITX3,4SJ-1770252,Teacher 3,0,,Others,Yes,,,Spoiled,1,0
+cmp66oaak00mn2jo2cdk4okjr,2018VT16,NIL,Portable Mic,S CHIAYO,ITX3,4SJ-1770246,Teacher 4,60,,Operational,Yes,,,,0,0
+cmp66oaak00mp2jo2iem6x4oy,2018VT17,NIL,Portable Mic,S CHIAYO,ITX3,4SJ-1770257,Teacher 5,60,,Operational,Yes,,,,0,0
+cmp66oaaj00lk2jo2zuvj84ni,2018VT18,NIL,MIC,S CHIAYO,HC-43,4SJ-1750244,Teacher 6,0,,Others,Yes,,,Spoiled,1,0
+cmp66oaaj00ll2jo2ml215557,2018VT18,NIL,MIC,S CHIAYO,ITX3,4SJ-1770250,Teacher 7,0,,Others,Yes,,,Spoiled,1,0
+cmp66oaak00mr2jo2dn36nc5d,2018VT19,NIL,Portable Mic,S CHIAYO,ITX3,4SJ-1770251,Teacher 8,60,,Operational,Yes,,,,0,0
+cmp66oaak00mt2jo2ofz6qcfm,2018VT20,NIL,Portable Mic,S CHIAYO,ITX3,4SJ-1770247,Teacher 9,60,,Operational,Yes,,,,0,0
+cmp66oaak00mv2jo25mxbix09,2018VT21,NIL,Portable Mic,S CHIAYO,ITX3,4SJ-1770049,Teacher 10,60,,Operational,Yes,,,,0,0
+cmp66oaak00mx2jo2ou8u20pj,2018VT22,NIL,Portable Mic,S CHIAYO,ITX3,4SJ-1770255,Teacher 11,60,,Operational,Yes,,,,0,0
+cmp66oaak00mz2jo2e264nnkw,2018VT23,NIL,Portable Mic,S CHIAYO,ITX3,4SJ-1770072,Teacher 12,60,,Operational,Yes,,,,0,0
+cmp66oaaj00lu2jo2d2kqih2b,2018VT24,NIL,MIC,S CHIAYO,HC-43,4SJ-1750210,Teacher 13,0,,Others,Yes,,,Spoiled,1,0
+cmp66oaaj00lv2jo2sl10xgp2,2018VT24,NIL,MIC,S CHIAYO,ITX3,4SJ-1770070,Teacher 14,0,,Others,Yes,,,Spoiled,1,0
+cmp66oaak00n12jo2bqu3p7x6,2018VT25,NIL,Portable Mic,S CHIAYO,ITX3,4SJ-1770222,Teacher 15,60,,Operational,Yes,,,,0,0
+cmp66oaak00n32jo2jkbve6aq,2018VT26,NIL,Portable Mic,S CHIAYO,ITX3,4SJ-1770224,Teacher 16,60,,Operational,Yes,,,,0,0
+cmp66oaak00n52jo2srdvvblq,2018VT27,NIL,Portable Mic,S CHIAYO,ITX3,4SJ-1770079,Teacher 1,60,,Operational,Yes,,,,0,0
+cmp66oaak00n72jo2mbif7bub,2018VT28,NIL,Portable Mic,S CHIAYO,ITX3,4SJ-1770047,Teacher 2,60,,Operational,Yes,,,,0,0
+cmp66oaak00n92jo25lmaj9lv,2018VT29,NIL,Portable Mic,S CHIAYO,ITX3,4SJ-1770258,Teacher 3,60,,Operational,Yes,,,,0,0
+cmp66oaaj00lm2jo2pwvzbz38,2018VT30,NIL,MIC,S CHIAYO,HC-43,4SJ-1750184,Teacher 4,0,,Others,Yes,,,Spoiled,1,0
+cmp66oaaj00ln2jo26ijsi9b4,2018VT30,NIL,MIC,S CHIAYO,ITX3,4SJ-1770074,Teacher 5,0,,Others,Yes,,,Spoiled,1,0
+cmp66oaak00nb2jo2fmkbqklh,2018VT31,NIL,Portable Mic,S CHIAYO,ITX3,4SJ-1770043,Teacher 6,60,,Operational,Yes,,,,0,0
+cmp66oaaj00lp2jo2xkxp7w6x,2018VT32,NIL,MIC,S CHIAYO,ITX2,4SJ-1770071,Teacher 7,0,,Others,Yes,,,Spoiled,0,0
+cmp66oaaj00lo2jo23q5sk9no,2018VT32,NIL,MIC,S CHIAYO,HC-43,4SJ-1750191,Teacher 8,0,,Others,Yes,,,Spoiled,0,0
+cmp66oaaj00lr2jo26p168ty8,2018VT33,NIL,MIC,S CHIAYO,ITX3,4SJ-1770080,Teacher 9,0,,Others,Yes,,,Spoiled,0,0
+cmp66oaaj00lq2jo25dch4lan,2018VT33,NIL,MIC,S CHIAYO,HC-43,4SJ-1750201,Teacher 10,0,,Others,Yes,,,Spoiled,0,0
+cmp66oaak00nd2jo2re79jw70,2018VT34,NIL,Portable Mic,S CHIAYO,ITX3,4SJ-1770082,Teacher 11,60,,Operational,Yes,,,,0,0
+cmp66oaak00nf2jo2ocf1jgzl,2018VT35,NIL,Portable Mic,S CHIAYO,ITX3,4SJ-1770078,Teacher 12,60,,Operational,Yes,,,,0,0
+cmp66oaak00nh2jo28ngykl9n,2018VT36,NIL,Portable Mic,S CHIAYO,ITX3,4SJ-1770077,Teacher 13,60,,Operational,Yes,,,,0,0
+cmp66oaak00nj2jo2nytij0xi,2018VT37,NIL,Portable Mic,S CHIAYO,ITX3,4SJ-1770076,Teacher 14,60,,Operational,Yes,,,,0,0
+cmp66oaak00nl2jo21y8dmrtx,2018VT38,NIL,Portable Mic,S CHIAYO,ITX3,4SJ-1770048,Teacher 15,60,,Operational,Yes,,,,0,0
+cmp66oaaj00ls2jo2c8h92m06,2019VT01,NIL,MIC,S CHIAYO,HC-42,4SJ-1810283,Teacher 16,0,,Others,Yes,,,Spoiled,0,0
+cmp66oaaj00lt2jo24v0whzjr,2019VT01,NIL,MIC,S CHIAYO,ITX2,4SJ-1870120,Custody,0,,Others,Yes,,,Spoiled,0,0
+cmp66oaak00nn2jo2qwr0g419,2019VT02,NIL,Portable Mic,S CHIAYO,ITX2,4SJ-1870104,Custody,60,,Operational,Yes,,,,0,0
+cmp66oaak00no2jo2wxiwmoxl,ALP-VEP-01,NIL,Portable Mic,Vertical Enhancer,Pro+,SGVEP+001289,Custody,,,Operational,Yes,,,,0,0
+cmp66oaak00np2jo26itviwgg,ALP-VEP-02,NIL,Portable Mic,Vertical Enhancer,Pro+,SGVEP+001290,Custody,,,Operational,Yes,,,,0,0
+cmp66oaak00nq2jo2na5qu0mm,ALP-VEP-03,NIL,Portable Mic,Vertical Enhancer,Pro+,SGVEP+001291,Custody,,,Operational,Yes,,,,0,0
+cmp66oaak00nr2jo2qs4p7dtj,ALP-VEP-04,NIL,Portable Mic,Vertical Enhancer,Pro+,SGVEP+001292,Custody,,,Operational,Yes,,,,0,0
+cmp66oaak00ns2jo27sfbry06,ALP-VEP-05,NIL,Portable Mic,Vertical Enhancer,Pro+,SGVEP+001293,Custody,,,Operational,Yes,,,,0,0
+cmp66oaak00nt2jo24m1h02jg,ALP-VEP-06,NIL,Portable Mic,Vertical Enhancer,Pro+,SGVEP+001294,Custody,,,Operational,Yes,,,,0,0
+cmp66oaak00nu2jo2o2gkicdk,ALP-VEP-07,NIL,Portable Mic,Vertical Enhancer,Pro+,SGVEP+001295,Custody,,,Operational,Yes,,,,0,0
+cmp66oaak00nv2jo2b1sw6iqm,ALP-VEP-08,NIL,Portable Mic,Vertical Enhancer,Pro+,SGVEP+001296,Custody,,,Operational,Yes,,,,0,0
+cmp66oaak00nw2jo2lezswiro,ALP-VEP-09,NIL,Portable Mic,Vertical Enhancer,Pro+,SGVEP+001318,Custody,,,Operational,Yes,,,,0,0
+cmp66oaak00nx2jo2c1squf5h,ALP-VEP-10,NIL,Portable Mic,Vertical Enhancer,Pro+,SGVEP+001319,Custody,,,Operational,Yes,,,,0,0
+cmp66oaak00ny2jo29s85rjpm,ALP-VEP-11,NIL,Portable Mic,Vertical Enhancer,Pro+,SGVEP+001320,Custody,,,Operational,Yes,,,,0,0
+cmp66oaak00nz2jo2iwhv3fbq,ALP-VEP-12,NIL,Portable Mic,Vertical Enhancer,Pro+,SGVEP+000976,Custody,,,Operational,Yes,,,,0,0
+cmp66oaak00o02jo2i7wtgm8y,ALP-VEP-13,NIL,Portable Mic,Vertical Enhancer,Pro+,SGVEP+000973,Custody,,,Operational,Yes,,,,0,0
+cmp66oaak00o12jo2d3yoth8l,ALP-VEP-14,NIL,Portable Mic,Vertical Enhancer,Pro+,SGVEP+000974,Custody,,,Operational,Yes,,,,0,0
+cmp66oaak00o22jo2lva5lvfs,ALP-VEP-15,NIL,Portable Mic,Vertical Enhancer,Pro+,SGVEP+000975,Custody,,,Operational,Yes,,,,0,0
+cmp66oaak00o32jo20fm70qlf,ALP-VEP-16,NIL,Portable Mic,Vertical Enhancer,Pro+,SGVEP+001399,Custody,,,Operational,Yes,,,,0,0
+cmp66oaak00o42jo2aua03n8z,ALP-VEP-17,NIL,Portable Mic,Vertical Enhancer,Pro+,SGVEP+001400,Custody,,,Operational,Yes,,,,0,0
+cmp66oaak00o52jo2gxgw53zr,ALP-VEP-18,NIL,Portable Mic,Vertical Enhancer,Pro+,SGVEP+001401,Custody,,,Operational,Yes,,,,0,0
+cmp66oaak00o62jo2r04nqp8u,ALP-VEP-19,NIL,Portable Mic,Vertical Enhancer,Pro+,SGVEP+001402,Custody,,,Operational,Yes,,,,0,0
+cmp66oaak00o72jo2af4x4rva,ALP-VEP-20,NIL,Portable Mic,Vertical Enhancer,Pro+,SGVEP+001403,Custody,,,Operational,Yes,,,,0,0
+cmp66oaak00o82jo2e282exjd,ALP-VEP-21,NIL,Portable Mic,Vertical Enhancer,Pro+,SGVEP+001423,Custody,,,Operational,Yes,,,,0,0
+cmp66oaak00o92jo2fnu7mpos,ALP-VEP-22,NIL,Portable Mic,Vertical Enhancer,Pro+,SGVEP+001424,Custody,,,Operational,Yes,,,,0,0
+cmp66oaak00oa2jo29mi7djr0,ALP-VEP-23,NIL,Portable Mic,Vertical Enhancer,Pro+,SGVEP+001425,Custody,,,Operational,Yes,,,,0,0
+cmp66oaak00ob2jo29cwzx8hf,ALP-VEP-24,NIL,Portable Mic,Vertical Enhancer,Pro+,SGVEP+001426,Custody,,,Operational,Yes,,,,0,0
+cmp66oaak00oc2jo2o9znwxm6,ALP-VEP-25,NIL,Portable Mic,Vertical Enhancer,Pro+,SGVEP+001427,Custody,,,Operational,Yes,,,,0,0
+cmp66oaae00a42jo20i5nhr9u,AP2-1,,Apple Pencil,APPLE,A1603,ABCD,Pencil Cart E2-01,120,,Operational,Yes,,,,0,0
+cmp66oaae00ad2jo2ke0icrd5,AP2-10,,Apple Pencil,APPLE,A1603,EFGI,Pencil Cart E2-01,120,,Operational,Yes,,,,0,0
+cmp66oaaf00ae2jo2e9u8ysai,AP2-11,,Apple Pencil,APPLE,A1603,XHJG,Pencil Cart E2-01,120,,Operational,Yes,,,,0,0
+cmp66oaaf00af2jo2at0kvms2,AP2-12,,Apple Pencil,APPLE,A1603,SIYH,Pencil Cart E2-01,120,,Operational,Yes,,,,0,0
+cmp66oaaf00ag2jo2dcfi9108,AP2-13,,Apple Pencil,APPLE,A1603,JS45,Pencil Cart E2-01,120,,Operational,Yes,,,,0,0
+cmp66oaaf00ah2jo23dkmx1tw,AP2-14,,Apple Pencil,APPLE,A1603,ABCD,Pencil Cart E2-01,120,,Operational,Yes,,,,0,0
+cmp66oaaf00ai2jo2p0d2vgw1,AP2-15,,Apple Pencil,APPLE,A1603,OLAH,Pencil Cart E2-01,120,,Operational,Yes,,,,0,0
+cmp66oaaf00aj2jo24bxwvxy0,AP2-16,,Apple Pencil,APPLE,A1603,IDGH,Pencil Cart E2-01,120,,Operational,Yes,,,,0,0
+cmp66oaaf00ak2jo2opdwc4bh,AP2-17,,Apple Pencil,APPLE,A1603,BHAS,Pencil Cart E2-01,120,,Operational,Yes,,,,0,0
+cmp66oaaf00al2jo2xt8zvhak,AP2-18,,Apple Pencil,APPLE,A1603,DJAL,Pencil Cart E2-01,120,,Operational,Yes,,,,0,0
+cmp66oaaf00am2jo2tp4mo2xt,AP2-19,,Apple Pencil,APPLE,A1603,PAPP,Pencil Cart E2-01,120,,Operational,Yes,,,,0,0
+cmp66oaae00a52jo23cmx5cqh,AP2-2,,Apple Pencil,APPLE,A1603,HFFG,Pencil Cart E2-01,120,,Operational,Yes,,,,0,0
+cmp66oaaf00an2jo2utx70vzl,AP2-20,,Apple Pencil,APPLE,A1603,EFGI,Pencil Cart E2-01,120,,Operational,Yes,,,,0,0
+cmp66oaaf00ao2jo2woifulrq,AP2-21,,Apple Pencil,APPLE,A1603,XHJG,Pencil Cart E2-01,120,,Operational,Yes,,,,0,0
+cmp66oaaf00ap2jo2bshradv5,AP2-22,,Apple Pencil,APPLE,A1603,SIYH,Pencil Cart E2-01,120,,Operational,Yes,,,,0,0
+cmp66oaaf00aq2jo24q7ertih,AP2-23,,Apple Pencil,APPLE,A1603,JS45,Pencil Cart E2-01,120,,Operational,Yes,,,,0,0
+cmp66oaaf00ar2jo23z57cz81,AP2-24,,Apple Pencil,APPLE,A1603,ABCD,Pencil Cart E2-01,120,,Operational,Yes,,,,0,0
+cmp66oaaf00as2jo2ij83rpzb,AP2-25,,Apple Pencil,APPLE,A1603,OLAH,Pencil Cart E2-01,120,,Operational,Yes,,,,0,0
+cmp66oaaf00at2jo2a77160np,AP2-26,,Apple Pencil,APPLE,A1603,IDGH,Pencil Cart E2-01,120,,Operational,Yes,,,,0,0
+cmp66oaaf00au2jo2mo24978x,AP2-27,,Apple Pencil,APPLE,A1603,BHAS,Pencil Cart E2-01,120,,Operational,Yes,,,,0,0
+cmp66oaaf00av2jo2o9blsno1,AP2-28,,Apple Pencil,APPLE,A1603,DJAL,Pencil Cart E2-01,120,,Operational,Yes,,,,0,0
+cmp66oaaf00aw2jo2965bbkbe,AP2-29,,Apple Pencil,APPLE,A1603,ABCD,Pencil Cart E2-01,120,,Operational,Yes,,,,0,0
+cmp66oaae00a62jo27f6b95z6,AP2-3,,Apple Pencil,APPLE,A1603,ABCD,Pencil Cart E2-01,120,,Operational,Yes,,,,0,0
+cmp66oaaf00ax2jo295d37526,AP2-30,,Apple Pencil,APPLE,A1603,EFGI,Pencil Cart E2-01,120,,Operational,Yes,,,,0,0
+cmp66oaaf00ay2jo22ixwt4p4,AP2-31,,Apple Pencil,APPLE,A1603,XHJG,Pencil Cart E2-01,120,,Operational,Yes,,,,0,0
+cmp66oaaf00az2jo2m64kjzyw,AP2-32,,Apple Pencil,APPLE,A1603,SIYH,Pencil Cart E2-01,120,,Operational,Yes,,,,0,0
+cmp66oaaf00b02jo2xpcpxz2n,AP2-33,,Apple Pencil,APPLE,A1603,JS45,Pencil Cart E2-01,120,,Operational,Yes,,,,0,0
+cmp66oaaf00b12jo2dssgttm2,AP2-34,,Apple Pencil,APPLE,A1603,ABCD,Pencil Cart E2-01,120,,Operational,Yes,,,,0,0
+cmp66oaaf00b22jo2aq8hd508,AP2-35,,Apple Pencil,APPLE,A1603,OLAH,Pencil Cart E2-01,120,,Operational,Yes,,,,0,0
+cmp66oaaf00b32jo20cdosgvl,AP2-36,,Apple Pencil,APPLE,A1603,IDGH,Pencil Cart E2-01,120,,Operational,Yes,,,,0,0
+cmp66oaaf00b42jo2e693dzs6,AP2-37,,Apple Pencil,APPLE,A1603,BHAS,Pencil Cart E2-01,120,,Operational,Yes,,,,0,0
+cmp66oaaf00b52jo20w2wpcto,AP2-38,,Apple Pencil,APPLE,A1603,DJAL,Pencil Cart E2-01,120,,Operational,Yes,,,,0,0
+cmp66oaaf00b62jo2om2i1qkm,AP2-39,,Apple Pencil,APPLE,A1603,DBAS,Pencil Cart E2-01,120,,Operational,Yes,,,,0,0
+cmp66oaae00a72jo2qi2828zz,AP2-4,,Apple Pencil,APPLE,A1603,OLAJ,Pencil Cart E2-01,120,,Operational,Yes,,,,0,0
+cmp66oaaf00b72jo2otxjq622,AP2-40,,Apple Pencil,APPLE,A1603,XYXY,Pencil Cart E2-01,120,,Operational,Yes,TEACHER K,,,0,0
+cmp66oaae00a82jo2tv6qtxvb,AP2-5,,Apple Pencil,APPLE,A1603,BHAS,Pencil Cart E2-01,120,,Operational,Yes,,,,0,0
+cmp66oaae00a92jo2l1h5fvey,AP2-6,,Apple Pencil,APPLE,A1603,DJAL,Pencil Cart E2-01,120,,Operational,Yes,,,,0,0
+cmp66oaae00aa2jo2smacdf2b,AP2-7,,Apple Pencil,APPLE,A1603,XHJG,Pencil Cart E2-01,120,,Operational,Yes,,,,0,0
+cmp66oaae00ab2jo2daoin636,AP2-8,,Apple Pencil,APPLE,A1603,SIYH,Pencil Cart E2-01,120,,Operational,Yes,,,,0,0
+cmp66oaae00ac2jo2mzt0m5or,AP2-9,,Apple Pencil,APPLE,A1603,OLAH,Pencil Cart E2-01,120,,Operational,Yes,,,,0,0
+cmp66oaal00ps2jo2gtcnch24,Apple TV 1,,TV Box,APPLE,A1469,SC07NQV5LFF54,Teacher 1,228,,Operational,Yes,,,,0,0
+cmp66oaal00pt2jo2hdddh88c,Apple TV 2,,TV Box,APPLE,A1469,SC07NQTL7FF54,Teacher 2,228,,Others,Yes,,,Spoiled,1,0
+cmp66oaal00pu2jo21ry4zt08,Apple TV 3,,TV Box,APPLE,A1469,SC07NQVSQFF54,Teacher 3,228,,Operational,Yes,,,,0,0
+cmp66oaal00pv2jo2rw0monfg,Apple TV 4,,TV Box,APPLE,A1469,SC07NQU2CFF54,Teacher 4,228,,Operational,Yes,,,,0,0
+cmp66oaal00pw2jo2k0ndr72o,Apple TV 5,,TV Box,APPLE,A1469,SC07NQVLWFF54,Teacher 5,228,,Operational,Yes,,,,0,0
+cmp66oaal00px2jo2u0ikn9ho,Apple TV 6,,TV Box,APPLE,A1469,SC07NQV82FF54,Teacher 6,228,,Operational,Yes,,,,0,0
+cmp66oaal00py2jo2kgtg8voq,Apple TV 7,,TV Box,APPLE,A1469,SC07NQVTBFF54,Teacher 7,228,,Operational,Yes,,,,0,0
+cmp66oaal00pz2jo20c50glrm,Apple TV 8,,TV Box,APPLE,A1469,SC07NQVEDFF54,Teacher 8,228,,Operational,Yes,,,,0,0
+cmp66oaae007z2jo2nxxpmpnf,Cart 1-1,0054-000360,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E3-04,449,20/6/2025,Operational,Yes,,,,0,0
+cmp66oaae00882jo2edtz67pw,Cart 1-10,0054-000369,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E3-04,449,20/6/2025,Operational,Yes,,,,0,0
+cmp66oaae00892jo2unjjiit9,Cart 1-11,0054-000370,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E3-04,449,20/6/2025,Operational,Yes,,,,0,0
+cmp66oaae008a2jo2c34lji4g,Cart 1-12,0054-000371,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E3-04,449,20/6/2025,Operational,Yes,,,,0,0
+cmp66oaae008b2jo2ryirrwd3,Cart 1-13,0054-000372,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E3-04,449,20/6/2025,Operational,Yes,,,,0,0
+cmp66oaae008c2jo2lce8xyhj,Cart 1-14,0054-000373,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E3-04,449,20/6/2025,Operational,Yes,,,,0,0
+cmp66oaae008d2jo2skquljz2,Cart 1-15,0054-000374,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E3-04,449,20/6/2025,Operational,Yes,,,,0,0
+cmp66oaae008e2jo2ohp2617s,Cart 1-16,0054-000375,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E3-04,449,20/6/2025,Operational,Yes,,,,0,0
+cmp66oaae008f2jo2cyu128fj,Cart 1-17,0054-000376,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E3-04,449,20/6/2025,Operational,Yes,,,,0,0
+cmp66oaae008g2jo2ddi7kw80,Cart 1-18,0054-000377,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E3-04,449,20/6/2025,Operational,Yes,,,,0,0
+cmp66oaae008h2jo2519cvjj8,Cart 1-19,0054-000378,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E3-04,449,20/5/2025,Operational,Yes,,,,0,0
+cmp66oaae00802jo2u2s49piw,Cart 1-2,0054-000361,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E3-04,449,20/6/2025,Operational,Yes,,,,0,0
+cmp66oaae008i2jo2e3ujipjg,Cart 1-20,0054-000379,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E3-04,449,20/6/2025,Operational,Yes,,,,0,0
+cmp66oaae008j2jo2pdhdy8l6,Cart 1-21,0054-000380,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E3-04,449,20/6/2025,Operational,Yes,,,,0,0
+cmp66oaae008k2jo22ud7bs18,Cart 1-22,0054-000381,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E3-04,449,20/6/2025,Operational,Yes,,,,0,0
+cmp66oaae008l2jo272zrnta2,Cart 1-23,0054-000382,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E3-04,449,20/6/2025,Operational,Yes,,,,0,0
+cmp66oaae008m2jo2h0zchgdf,Cart 1-24,0054-000383,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E3-04,449,20/6/2025,Operational,Yes,,,,0,0
+cmp66oaae008n2jo2362bk1q0,Cart 1-25,0054-000384,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E3-04,449,20/6/2025,Operational,Yes,,,,0,0
+cmp66oaae008o2jo2ix2b1nha,Cart 1-26,0054-000385,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E3-04,449,20/6/2025,Operational,Yes,,,,0,0
+cmp66oaae008p2jo20pxre5ab,Cart 1-27,0054-000386,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E3-04,449,20/6/2025,Operational,Yes,,,,0,0
+cmp66oaae008q2jo2kb8cfeh8,Cart 1-28,0054-000387,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E3-04,449,20/6/2025,Operational,Yes,,,,0,0
+cmp66oaae008r2jo2xnvz5v3c,Cart 1-29,0054-000388,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Teacher 1,449,20/6/2025,Operational,Yes,,,,0,0
+cmp66oaae00812jo2jq8b7wgy,Cart 1-3,0054-000362,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E3-04,449,20/6/2025,Operational,Yes,,,,0,0
+cmp66oaae008s2jo2aqn4w88s,Cart 1-30,0054-000389,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E3-04,449,20/6/2025,Operational,Yes,,,,0,0
+cmp66oaae008t2jo2pv64i1bs,Cart 1-31,0054-000390,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Teacher 3,449,20/6/2025,Operational,Yes,,,,0,0
+cmp66oaae008u2jo2eit15una,Cart 1-32,0054-000391,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,teacher 6,449,20/6/2025,Operational,Yes,,,,0,0
+cmp66oaae008v2jo20ckgraxk,Cart 1-33,0054-000392,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,teacher 8,449,20/6/2025,Operational,Yes,,,,0,0
+cmp66oaae008w2jo2mc2wnot8,Cart 1-34,0054-000393,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E3-04,449,20/6/2025,Operational,Yes,,,,0,0
+cmp66oaae008x2jo2icoybjta,Cart 1-35,0054-000394,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,teacher HOD,449,20/6/2025,Operational,Yes,,,,0,0
+cmp66oaae008y2jo2qssvma4k,Cart 1-36,0054-000395,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Tecaher no,449,20/6/2025,Operational,Yes,,,,0,0
+cmp66oaae00822jo2jud0bjza,Cart 1-4,0054-000363,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E3-04,449,20/6/2025,Operational,Yes,,,,0,0
+cmp66oaae00832jo29d1qlxql,Cart 1-5,0054-000364,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E3-04,449,20/6/2025,Operational,Yes,,,,0,0
+cmp66oaae00842jo2b24w7as3,Cart 1-6,0054-000365,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E3-04,449,20/6/2025,Operational,Yes,,,,0,0
+cmp66oaae00852jo209sacesk,Cart 1-7,0054-000366,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E3-04,449,20/6/2025,Operational,Yes,,,,0,0
+cmp66oaae00862jo25vl2xvit,Cart 1-8,0054-000367,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E3-04,449,20/6/2025,Operational,Yes,,,,0,0
+cmp66oaae00872jo2sc5in5nc,Cart 1-9,0054-000368,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E3-04,449,20/6/2025,Operational,Yes,,,,0,0
+cmp66oaae00902jo2u4a3j48c,Cart 2-1,0054-000419,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E2-01,449,16/1/2025,Operational,Yes,,,,0,0
+cmp66oaae00992jo2b0slytls,Cart 2-10,0054-000433,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E2-01,449,16/1/2025,Operational,Yes,,,,0,0
+cmp66oaae009a2jo2hj3jptey,Cart 2-11,0054-000422,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E2-01,449,16/1/2025,Operational,Yes,,,,0,0
+cmp66oaae009b2jo252y7igyb,Cart 2-12,0054-000405,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E2-01,449,16/1/2025,Operational,Yes,,,,0,0
+cmp66oaae009c2jo24vjctzet,Cart 2-13,0054-000399,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E2-01,449,16/1/2025,Operational,Yes,,,,0,0
+cmp66oaae009d2jo2h22f2rqy,Cart 2-14,0054-000396,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E2-01,449,16/1/2025,Operational,No,,,,0,0
+cmp66oaae009e2jo2828hmwom,Cart 2-15,0054-000401,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E2-01,449,16/1/2025,Operational,Yes,,,,0,0
+cmp66oaae009f2jo2yc3j53uq,Cart 2-16,0054-000397,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E2-01,449,16/1/2025,Operational,Yes,,,,0,0
+cmp66oaae009g2jo27rnrv0n5,Cart 2-17,0054-000435,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E2-01,449,16/1/2025,Operational,Yes,,,,0,0
+cmp66oaae009h2jo2z2k69wl3,Cart 2-18,0054-000426,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E2-01,449,16/1/2025,Operational,Yes,,,,0,0
+cmp66oaae009i2jo22cnkxgm3,Cart 2-19,0054-000398,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E2-01,449,16/1/2025,Operational,Yes,,,,0,0
+cmp66oaae00912jo25kth5roc,Cart 2-2,0054-000415,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E2-01,449,16/1/2025,Operational,Yes,,,,0,0
+cmp66oaae009j2jo2wqm8ttx4,Cart 2-20,0054-000425,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E2-01,449,16/1/2025,Operational,Yes,,,,0,0
+cmp66oaae009k2jo2ctkul9n3,Cart 2-21,0054-000414,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E2-01,449,16/1/2025,Operational,No,,,,0,0
+cmp66oaae009l2jo2htrj7el3,Cart 2-22,0054-000429,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E2-01,449,16/1/2025,Operational,Yes,,,,0,0
+cmp66oaae009m2jo23ngmgu66,Cart 2-23,0054-000421,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E2-01,449,16/1/2025,Operational,Yes,,,,0,0
+cmp66oaae009n2jo2s1w3itpl,Cart 2-24,0054-000420,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E2-01,449,16/1/2025,Operational,Yes,,,,0,0
+cmp66oaae009o2jo2g9owu53o,Cart 2-25,0054-000434,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E2-01,449,16/1/2025,Operational,Yes,,,,0,0
+cmp66oaae009p2jo2o7fidh9z,Cart 2-26,0054-000418,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E2-01,449,16/1/2025,Operational,Yes,,,,0,0
+cmp66oaae009q2jo2ibpv2jvr,Cart 2-27,0054-000402,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E2-01,449,16/1/2025,Operational,Yes,,,,0,0
+cmp66oaae009r2jo2t9ay8ihh,Cart 2-28,0054-000410,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E2-01,449,16/1/2025,Operational,Yes,,,,0,0
+cmp66oaae009s2jo2sxshhtu4,Cart 2-29,0054-000406,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E2-01,449,16/1/2025,Operational,Yes,,,,0,0
+cmp66oaae00922jo29r6lk3ho,Cart 2-3,0054-000432,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E2-01,449,16/1/2025,Operational,Yes,,,,0,0
+cmp66oaae009t2jo2c5inj8zt,Cart 2-30,0054-000413,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E2-01,449,16/1/2025,Operational,Yes,,,,0,0
+cmp66oaae009u2jo2nor5j09d,Cart 2-31,0054-000430,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E2-01,449,16/1/2025,Operational,Yes,,,,0,0
+cmp66oaae009v2jo2053condj,Cart 2-32,0054-000427,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E2-01,449,16/1/2025,Operational,Yes,,,,0,0
+cmp66oaae009w2jo2d3pr56rq,Cart 2-33,0054-000409,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E2-01,449,16/1/2025,Operational,Yes,,,,0,0
+cmp66oaae009x2jo2kqim0g69,Cart 2-34,0054-000428,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E2-01,449,16/1/2025,Operational,Yes,,,,0,0
+cmp66oaae009y2jo27jnmgega,Cart 2-35,0054-000412,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E2-01,449,16/1/2025,Operational,Yes,,,,0,0
+cmp66oaae009z2jo2ehny8an2,Cart 2-36,0054-000411,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E2-01,449,16/1/2025,Operational,Yes,,,,0,0
+cmpp3bz1b000q2jpnhon00klm,Cart 2-37,0054-000400,Owned iPAD,Apple,MK2K3ZP/A,H2F33G,Cart E2-01,449,16/1/2025,Operational,Yes,,,,0,0
+cmp66oaae00a02jo2wvolxmb3,Cart 2-38,0054-000423,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E2-01,449,16/1/2025,Operational,Yes,,,,0,0
+cmp66oaae00a12jo20bty50mr,Cart 2-39,0054-000416,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E2-01,449,16/1/2025,Operational,Yes,,,,0,0
+cmp66oaae00932jo2gx022fot,Cart 2-4,0054-000407,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E2-01,449,16/1/2025,Operational,Yes,,,,0,0
+cmp66oaae00a32jo239b4x9zj,Cart 2-40,0054-000424,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E2-01,449,16/1/2025,Operational,Yes,,,,0,0
+cmp66oaae00942jo2iij949kl,Cart 2-5,0054-000403,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E2-01,449,16/1/2025,Operational,Yes,,,,0,0
+cmp66oaae00952jo2lw4rjckq,Cart 2-6,0054-000417,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E2-01,449,16/1/2025,Operational,Yes,,,,0,0
+cmp66oaae00962jo2pv0vz0ul,Cart 2-7,0054-000404,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E2-01,449,16/1/2025,Operational,Yes,,,,0,0
+cmp66oaae00972jo22d3jmf0o,Cart 2-8,0054-000408,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E2-01,449,16/1/2025,Operational,Yes,,,,0,0
+cmp66oaae00982jo269oab137,Cart 2-9,0054-000431,Owned iPAD,APPLE,MK2K3ZP/A,H2F33G,Cart E2-01,449,16/1/2025,Operational,Yes,,,,0,0
+cmp66oaaf00b92jo2e6u3hftv,Ipad 4-1,L12346878,iPAD,APPLE,,Y3R6G,F4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaaf00bi2jo2un1azh3x,Ipad 4-2,L13454358,iPAD,APPLE,,CXM5F,F4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaaf00bj2jo2wfolx6sd,Ipad 4-3,L132345243,iPAD,APPLE,,QGVM,F4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaaf00bk2jo2bz57piir,Ipad 4-4,L1576868,iPAD,APPLE,,WWKH,F4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaaf00bl2jo2sh88p7ge,Ipad 4-5,L12645786,iPAD,APPLE,,L3R4G,F4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaaf00bm2jo2azbjw10q,Ipad 4-6,L1534543,iPAD,APPLE,,NR607V,F4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaaf00bn2jo2m8yypmz7,Ipad 4-7,L12346878,iPAD,APPLE,,Q546H,F4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaaf00bo2jo2yvi6ap83,Ipad 4-8,L13454358,iPAD,APPLE,,Y3R6G,F4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaaf00bp2jo27nnibhjv,Ipad 4-9,L132345243,iPAD,APPLE,,CXM5F,F4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaaf00bq2jo2ok9hu7dn,Ipad 4-10,L1576868,iPAD,APPLE,,QGVM,F4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaaf00br2jo22wgu6mzc,Ipad 4-11,L12645786,iPAD,APPLE,,WWKH,F4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaaf00ba2jo2cwct5r3s,Ipad 4-12,L1534543,iPAD,APPLE,,L3R4G,F4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaaf00bs2jo2i2ujj1iw,Ipad 4-13,L12346878,iPAD,APPLE,,NR607V,F4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaaf00bt2jo274wymu24,Ipad 4-14,L132345243,iPAD,APPLE,,Q546H,F4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaaf00bu2jo2b1g3m4an,Ipad 4-15,L1576868,iPAD,APPLE,,Y3R6G,F4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaaf00bv2jo20r2kt62v,Ipad 4-16,L12645786,iPAD,APPLE,,CXM5F,F4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaaf00bw2jo2u241gjlm,Ipad 4-17,L1534543,iPAD,APPLE,,QGVM,F4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaaf00bx2jo212snocu6,Ipad 4-18,L12346878,iPAD,APPLE,,WWKH,F4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaaf00by2jo2zn2nbjr0,Ipad 4-19,L13454358,iPAD,APPLE,,L3R4G,F4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaaf00bz2jo2c2gtr674,Ipad 4-20,L132345243,iPAD,APPLE,,NR607V,F4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaaf00c02jo2708jab3b,Ipad 4-21,L1576868,iPAD,APPLE,,Q546H,F4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaaf00c12jo2usdacvmz,Ipad 4-22,L12645786,iPAD,APPLE,,Y3R6G,F4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaaf00bb2jo2hguea8po,Ipad 4-23,L1534543,iPAD,APPLE,,CXM5F,F4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaaf00c22jo2431sti05,Ipad 4-24,L12346878,iPAD,APPLE,,QGVM,F4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaaf00c32jo2bgto81gt,Ipad 4-25,L132345243,iPAD,APPLE,,WWKH,F4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaaf00c42jo2w8b0ie3f,Ipad 4-26,L1576868,iPAD,APPLE,,L3R4G,F4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaaf00c52jo2oefrib2t,Ipad 4-27,L12645786,iPAD,APPLE,,NR607V,F4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaaf00c62jo26sghmbwr,Ipad 4-28,L1534543,iPAD,APPLE,,Q546H,F4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaaf00c72jo22o8yr5g8,Ipad 4-29,L12346878,iPAD,APPLE,,Y3R6G,F4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaaf00c82jo231ihyzug,Ipad 4-30,L13454358,iPAD,APPLE,,CXM5F,F4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaaf00c92jo2la8sdddj,Ipad 4-31,L132345243,iPAD,APPLE,,QGVM,F4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaaf00ca2jo2hpvct5eu,Ipad 4-32,L1576868,iPAD,APPLE,,WWKH,F4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaaf00cb2jo27qxzajkk,Ipad 4-33,L12645786,iPAD,APPLE,,L3R4G,F4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaaf00bc2jo23uzmt1nq,Ipad 4-34,L12346878,iPAD,APPLE,,NR607V,F4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaaf00cc2jo2r92c3imp,Ipad 4-35,L13454358,iPAD,APPLE,,Q546H,F4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaaf00bd2jo2ocqexcf4,Ipad 4-36,L132345243,iPAD,APPLE,,Y3R6G,F4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaaf00be2jo24gfv0df2,Ipad 4-37,L12346878,iPAD,APPLE,,CXM5F,F4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaaf00bf2jo2l1oh1ozz,Ipad 4-38,L13454358,iPAD,APPLE,,QGVM,F4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaaf00bg2jo2whhpcsa2,Ipad 4-39,L132345243,iPAD,APPLE,,WWKH,F4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaaf00bh2jo20go8o79m,Ipad 4-40,L1576868,iPAD,APPLE,,L3R4G,F4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaad00572jo20zay0t2v,C Spare,,Projector,Casio,XJ-V10X,X8cccccc53,Meeting Room 4,,,Operational,No,,,,0,0
+cmp66oaad005d2jo2xerbgubq,DMPS-HD03,0054-000204,Portable HD,HP,PX3100,X8cccccc54,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad005e2jo2w64ismbi,DMPS-HD05,0054-000193,Portable HD,HP,PX3100,X8cccccc55,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad005f2jo2ixw3wt2b,DMPS-HD06,0054-000211,Portable HD,HP,PX3100,X8cccccc56,etacher g,,,Operational,Yes,,,,0,0
+cmp66oaad005g2jo2p9p9v2q3,DMPS-HD08,0054-000325,Portable HD,HP,PX3100,X8cccccc57,teacher 7,,,Operational,Yes,,,,0,0
+cmp66oaad005h2jo23zfz5ccb,DMPS-HD09,0054-000252,Portable HD,HP,PX3100,X8cccccc58,teacher 8,,,Operational,Yes,,,,0,0
+cmp66oaad005i2jo2nl0p6nrc,DMPS-HD10,0054-000215,Portable HD,HP,PX3100,X8cccccc59,etcahsds7,,,Operational,Yes,,,,0,0
+cmp66oaad005j2jo21mq9b2w2,DMPS-HD11,0054-000284,Portable HD,HP,PX3100,X8cccccc60,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad005k2jo202f088sv,DMPS-HD13,0054-000319,Portable HD,HP,PX3100,X8cccccc61,etacher 9,,,Operational,Yes,,,,0,0
+cmp66oaad005l2jo207amf3fh,DMPS-HD14,0054-000175,Portable HD,HP,PX3100,X8cccccc62,tecahssdg,,,Operational,Yes,,,,0,0
+cmp66oaad005m2jo24v6eqz08,DMPS-HD15,0054-000171,Portable HD,HP,PX3100,X8cccccc63,tecaher 1,,,Operational,Yes,,,,0,0
+cmp66oaad005n2jo21vc5c1ht,DMPS-HD16,0054-000172,Portable HD,HP,PX3100,X8cccccc64,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad005o2jo2783yg3we,DMPS-HD18,0054-000176,Portable HD,HP,PX3100,X8cccccc65,etacher 17,,,Operational,Yes,,,,0,0
+cmp66oaad005p2jo2lsdun2le,DMPS-HD19,0054-000209,Portable HD,HP,PX3100,X8cccccc66,etcaherr 09,,,Operational,Yes,,,,0,0
+cmp66oaad005q2jo277cvgnll,DMPS-HD20,0054-000314,Portable HD,HP,PX3100,X8cccccc67,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad005u2jo2qp1bsau0,DMPS-HD25,0054-000169,Portable HD,HP,PX3100,X8cccccc68,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad005v2jo2hgufj660,DMPS-HD26,0054-000231,Portable HD,HP,PX3100,X8cccccc69,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad005w2jo2b2fm1i8i,DMPS-HD27,0054-000332,Portable HD,HP,PX3100,X8cccccc70,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad005x2jo2yduznfla,DMPS-HD28,0054-000263,Portable HD,HP,PX3100,X8cccccc71,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad005y2jo25bvhm09k,DMPS-HD29,0054-000296,Portable HD,HP,PX3100,X8cccccc72,teacher y,,,Operational,Yes,,,,0,0
+cmp66oaad005z2jo2r9akq8au,DMPS-HD30,0054-000251,Portable HD,HP,PX3100,X8cccccc73,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad00602jo21cqk8wzu,DMPS-HD31,0054-000230,Portable HD,HP,PX3100,X8cccccc74,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad00612jo2fltakzni,DMPS-HD32,0054-000299,Portable HD,HP,PX3100,X8cccccc75,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad00622jo2cxilr7sv,DMPS-HD33,0054-000333,Portable HD,HP,PX3100,X8cccccc76,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad00632jo2938kvdgp,DMPS-HD34,0054-000199,Portable HD,HP,PX3100,X8cccccc77,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad00642jo2aslucndg,DMPS-HD35,0054-000257,Portable HD,HP,PX3100,X8cccccc78,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad00652jo27r5lxudk,DMPS-HD36,0054-000320,Portable HD,HP,PX3100,X8cccccc79,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad00662jo2hmtz7wgb,DMPS-HD37,0054-000290,Portable HD,HP,PX3100,X8cccccc80,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad00672jo24g9kldh5,DMPS-HD38,0054-000297,Portable HD,HP,PX3100,X8cccccc81,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad00682jo2cxn8uabo,DMPS-HD39,0054-000223,Portable HD,HP,PX3100,X8cccccc82,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad00692jo29vohz6le,DMPS-HD40,0054-000286,Portable HD,HP,PX3100,X8cccccc83,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad006a2jo2dopldm4j,DMPS-HD41,0054-000192,Portable HD,HP,PX3100,X8cccccc84,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad006b2jo2oqj91n4g,DMPS-HD42,0054-000227,Portable HD,HP,PX3100,X8cccccc85,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad006c2jo2bvp5mjuu,DMPS-HD43,0054-000281,Portable HD,HP,PX3100,X8cccccc86,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad006d2jo2jqne5zkn,DMPS-HD44,0054-000255,Portable HD,HP,PX3100,X8cccccc87,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad006e2jo269fyaghs,DMPS-HD45,0054-000262,Portable HD,HP,PX3100,X8cccccc88,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad006f2jo2jze4tjhr,DMPS-HD46,0054-000238,Portable HD,HP,PX3100,X8cccccc89,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad006g2jo29okyktvu,DMPS-HD47,0054-000235,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad006h2jo2pluxr5p0,DMPS-HD48,0054-000318,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad006i2jo2q7sjfpsj,DMPS-HD49,0054-000256,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad006j2jo2pak1bshb,DMPS-HD51,0054-000248,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad006k2jo2f7sph6zh,DMPS-HD52,0054-000233,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad006l2jo2sv0xwqba,DMPS-HD53,0054-000186,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad006m2jo2fdowo8tk,DMPS-HD54,0054-000185,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad006n2jo2f1prit8y,DMPS-HD55,0054-000244,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad006o2jo2eo7fy50g,DMPS-HD56,0054-000222,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad006p2jo2x7udonu1,DMPS-HD59,0054-000249,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad006q2jo2u9mtco1j,DMPS-HD77,0054-000254,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad006r2jo24nnu2wj3,DMPS-HD81,0054-000309,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad006s2jo271ue02nt,DMPS-HD83,0054-000295,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad006t2jo22dlwwjnd,DMPS-HD91,0054-000177,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad006u2jo2rfnp1t50,DMPS-HD93,0054-000272,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaal00pj2jo2h4eavh9p,DSLR1,0001-001015,CAMERA,CANON,EOS 650D,38051004602,CUSTODY,1200,,Operational,Yes,,,,0,0
+cmp66oaal00pi2jo23oigcha6,DSLR2,0001-000545,CAMERA,CANON,EOS,2150584328,CUSTODY,1100,,Operational,Yes,,,,0,0
+cmp66oaal00pk2jo2orpwmri0,DSLR3,0001-000760,CAMERA,CANON,EOS 700D,78031010017,CUSTODY,900,,Operational,Yes,,,,0,0
+cmp66oaal00pm2jo2zjrqln0z,DSLR4,0001-001013,CAMERA,NIKON,D5300,6732909,CUSTODY,500,,Operational,Yes,,,,0,0
+cmp66oaal00pn2jo22dmjmbqs,DSLR5,0001-001012,CAMERA,NIKON,D40,8039906,CUSTODY,603,,Operational,Yes,,,,0,0
+cmp66oaae008z2jo2c3zf9uqe,E2-01 Cart,0000-001046,Mobile Charging Cart,AV Logic,AVL-QP-R40TB,QP2023xasaxs36,Cart E2-01,3000,12/2/2024,Operational,No,,,,0,3
+cmp66oaal00pg2jo2nd6v45wn,GO1,,CAMERA,GOPRO,HERO 3+,X8cccccc56,CUSTODY,550,,Operational,Yes,,,,0,0
+cmp66oaal00ph2jo20m605hla,GO2,,CAMERA,GOPRO,HERO 3+,X8cccccc57,CUSTODY,550,,Operational,Yes,,,,0,0
+cmp66oaae007y2jo23rk0xew0,E3-04 Cart,0000-000922,Mobile Charging Cart,ERGOTRON,N31508,1252670-asxas,Cart E3-04,700,,Operational,No,,,,0,0
+cmp66oaag00di2jo2po6l387e,E4-03 Cart,L00094316,Mobile Charging Cart,V-lab,V-Lab 40,asxqwd,E4-03,0,,Operational,No,,Leasing,iPad Cart 3,0,0
+cmp66oaad006x2jo2nrgjhp4y,ECPS-HD01,0054-000202,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad006y2jo2q83vvl2z,ECPS-HD02,0054-000191,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad006z2jo2869q0qb3,ECPS-HD03,0054-000239,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad00702jo2l8tufokt,ECPS-HD04,0054-000220,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad00712jo2xpzpxsx6,ECPS-HD05,0054-000201,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad00722jo2vlfynylz,ECPS-HD06,0054-000179,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad00732jo2twihin7k,ECPS-HD08,0054-000313,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad00742jo2v3vg2jmh,ECPS-HD09,0054-000178,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad00752jo20n6uzm5e,ECPS-HD10,0054-000278,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad00762jo24s580i8u,ECPS-HD11,0054-000213,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad00772jo2pmtbkr2m,ECPS-HD12,0054-000198,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad00782jo2rvwiggon,ECPS-HD14,0054-000216,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad00792jo2y7zv9n5j,ECPS-HD15,0054-000234,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad007a2jo2xqt4zcjl,ECPS-HD16,0054-000273,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad007b2jo2syrrlh1f,ECPS-HD17,0054-000228,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad007c2jo2fvdm6ia0,ECPS-HD18,0054-000323,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad007d2jo2aocp01ns,ECPS-HD19,0054-000329,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad007e2jo2ipydx7m1,ECPS-HD20,0054-000229,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad007f2jo2t3inoe7g,ECPS-HD21,0054-000168,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad007g2jo28ygyu6ox,ECPS-HD22,0054-000311,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad007h2jo2u5vpk7gp,ECPS-HD23,0054-000218,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad007i2jo2so8ejam3,ECPS-HD24,0054-000334,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad007j2jo2eqjbdsc9,ECPS-HD25,0054-000317,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad007k2jo2rvzn1ewa,ECPS-HD26,0054-000301,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaae007l2jo2g8vwdt21,ECPS-HD27,0054-000214,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaae007m2jo2nuac84hg,ECPS-HD28,0054-000241,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaae007n2jo2e60fyiwg,ECPS-HD29,0054-000303,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaae007o2jo2gwwlk4ai,ECPS-HD30,0054-000285,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaae007p2jo23wnmos67,ECPS-HD31,0054-000288,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaae007q2jo2twd49w5t,ECPS-HD62,0054-000264,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaae007r2jo20tz32i8c,ECPS-HD63,0054-000261,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaae007s2jo2igw9u9gt,ECPS-HD66,0054-000207,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaal00q12jo2j0ovlgrd,SC1,,Monitor,ACER,V206HQL,X8cccccc58,Teacher 1,,,Operational,No,,,,0,0
+cmp66oaal00qa2jo2skorefsu,SC10,,Monitor,ACER,V206HQL,X8cccccc59,Teacher 2,,,Operational,No,,,,0,0
+cmp66oaal00qb2jo2fywz8a7u,SC11,,Monitor,ACER,V206HQL,X8cccccc60,Teacher 3,,,Operational,No,,,,0,0
+cmp66oaal00qc2jo2bmw30lkj,SC12,,Monitor,ACER,V206HQL,X8cccccc61,Teacher 4,,,Operational,No,,,,0,0
+cmp66oaal00qd2jo2cdtvuiaj,SC13,,Monitor,ACER,V206HQL,X8cccccc62,Teacher 5,,,Operational,No,,,,0,0
+cmp66oaal00qe2jo2lqrqj95t,SC14,,Monitor,ACER,V206HQL,X8cccccc63,Teacher 6,,,Operational,No,,,,0,0
+cmp66oaal00qf2jo2o56tlu31,SC15,,Monitor,ACER,V206HQL,X8cccccc64,Teacher 7,,,Operational,No,,,,0,0
+cmp66oaal00qg2jo2br7uvb8z,SC16,,Monitor,ACER,V206HQL,X8cccccc65,Teacher 8,,,Operational,No,,,,0,0
+cmp66oaal00qh2jo27vze9h6p,SC17,,Monitor,ACER,V206HQL,X8cccccc66,Teacher 9,,,Operational,No,,,,0,0
+cmp66oaal00qi2jo24u64isht,SC18,,Monitor,ACER,V206HQL,X8cccccc67,Teacher 10,,,Operational,No,,,,0,0
+cmp66oaam00qj2jo23r30k1nl,SC19,,Monitor,ACER,V206HQL,X8cccccc68,Teacher 11,,,Operational,No,,,,0,0
+cmp66oaal00q22jo2lww2udp4,SC2,,Monitor,ACER,V206HQL,X8cccccc69,Teacher 12,,,Operational,No,,,,0,0
+cmp66oaam00qk2jo2njottlnk,SC20,,Monitor,ACER,V206HQL,X8cccccc70,Teacher 13,,,Operational,No,,,,0,0
+cmp66oaam00ql2jo2wre4m86q,SC21,,Monitor,ACER,V206HQL,X8cccccc71,Teacher 14,,,Operational,No,,,,0,0
+cmp66oaam00qm2jo2dr6etxx8,SC22,,Monitor,ACER,V206HQL,X8cccccc72,Teacher 15,,,Operational,No,,,,0,0
+cmp66oaam00qn2jo23nej0g1g,SC23,,Monitor,ACER,V206HQL,X8cccccc73,Teacher 16,,,Operational,No,,,,0,0
+cmp66oaam00qo2jo2a382qbnb,SC24,,Monitor,ACER,V206HQL,X8cccccc74,Teacher 17,,,Operational,No,,,,0,0
+cmp66oaam00qp2jo2xbh35a8s,SC25,,Monitor,ACER,V206HQL,X8cccccc75,Teacher 18,,,Operational,No,,,,0,0
+cmp66oaam00qq2jo29ke53ig1,SC26,,Monitor,ACER,V206HQL,X8cccccc76,Teacher 19,,,Operational,No,,,,0,0
+cmp66oaam00qr2jo2c6m4k665,SC27,,Monitor,ACER,V206HQL,X8cccccc77,Teacher 20,,,Operational,No,,,,0,0
+cmp66oaam00qs2jo2p104hdxd,SC28,,Monitor,ACER,V206HQL,X8cccccc78,Teacher 21,,,Operational,No,,,,0,0
+cmp66oaam00qt2jo2y9z08ut6,SC29,,Monitor,ACER,V206HQL,X8cccccc79,Teacher 22,,,Operational,No,,,,0,0
+cmp66oaal00q32jo2nvf60inn,SC3,,Monitor,ACER,V206HQL,X8cccccc80,Teacher 23,,,Operational,No,,,,0,0
+cmp66oaam00qu2jo2ie2fp9dn,SC30,,Monitor,ACER,V206HQL,X8cccccc81,Teacher 24,,,Operational,No,,,,0,0
+cmp66oaam00qv2jo28ayxvgho,SC31,,Monitor,ACER,V206HQL,X8cccccc82,Teacher 25,,,Operational,No,,,,0,0
+cmp66oaam00qw2jo2eblkddwv,SC32,,Monitor,ACER,V206HQL,X8cccccc83,Teacher 26,,,Operational,No,,,,0,0
+cmp66oaam00qx2jo2kd6x3cor,SC33,,Monitor,ACER,V206HQL,13714756442,Teacher 27,,,Operational,No,,,,0,0
+cmp66oaam00qy2jo29ulci786,SC34,,Monitor,ACER,V206HQL,13714756442,Teacher 27,,,Operational,No,,,,0,0
+cmp66oaam00qz2jo2eg22sbrx,SC35,,Monitor,ACER,V206HQL,13714756442,Teacher 28,,,Operational,No,,,,0,0
+cmp66oaam00r02jo2v4r006eg,SC36,,Monitor,ACER,V206HQL,13714756442,Teacher 29,,,Operational,No,,,,0,0
+cmp66oaam00r12jo2nl9u4uhc,SC37,,Monitor,ACER,V206HQL,13714756442,Teacher 30,,,Operational,No,,,,0,0
+cmp66oaam00r22jo27lw2nd2b,SC38,,Monitor,ACER,V206HQL,13714756442,Teacher 31,,,Operational,No,,,,0,0
+cmp66oaam00r32jo2do0rx78o,SC39,,Monitor,ACER,V206HQL,13714756442,Teacher 32,,,Operational,No,,,,0,0
+cmp66oaal00q42jo23k586h6t,SC4,,Monitor,ACER,V206HQL,13714756442,Teacher 33,,,Operational,No,,,,0,0
+cmp66oaal00q52jo298hrohmk,SC5,,Monitor,ACER,V206HQL,13714756442,Teacher 34,,,Operational,No,,,,0,0
+cmp66oaal00q62jo2o64ff3u1,SC6,,Monitor,ACER,V206HQL,13714756442,Teacher 35,,,Operational,No,,,,0,0
+cmp66oaal00q72jo24uucqxkb,SC7,,Monitor,ACER,V206HQL,13714756442,Teacher 36,,,Operational,No,,,,0,0
+cmp66oaal00q82jo2m7fcmbl4,SC8,,Monitor,ACER,V206HQL,13714756442,Teacher 37,,,Operational,No,,,,0,0
+cmp66oaal00q92jo2mtptq0og,SC9,,Monitor,ACER,V206HQL,13714756442,Teacher 38,,,Operational,No,,,,0,0
+cmp66oaae007v2jo2x0um1l6b,SMAX,0054-001047,S-Max,APPLE,MM6R3ZP/A,C91YXPWGDX,Teacher 39,,,Operational,No,,27 Jan 2023 - Singtel,ONE6177722944,0,0
+cmp66oaae007w2jo2crtvzt5s,SMAX,0054-001048,S-Max,APPLE,MK8C3ZP/A,W9JY74VLYK,Teacher 40,,,Operational,No,,27 Jan 2023 - Singtel,ONE6177722945,0,0
+cmp66oaae007x2jo24y2gzosp,SMAX Pencil,,S-Max,APPLE,MU8F2ZA/A,HK2JJLH7JKM9,Teacher 41,,,Operational,No,,27 Jan 2023 - Singtel,,0,0
+cmp66oaab000r2jo25shbb30o,S Spare,,Visualiser,SAMSUNG,UF 80ST,X8cccccc53,Teacher 42,2175,1/1/2022,Operational,No,,,,0,0
+cmp66oaaf00b82jo2wt19p71g,F4-03 Cart,0000-001045,Mobile Charging Cart,AV Logic,AVQP-R40TB-SYNC,X8cccccc55,F4-03,,,Operational,No,,,,1,0
+cmpccaqws00zr2jo2may2yxj0,iPad Cart 2,,iPad Cart,iPad Cart,AVER,4060,Condemned / Pending Disposal,3156.5,1/1/2020,Waiting for Condemnation,No,,,Leg issue,0,0
+cmp66oaad00592jo23dtig8mb,E SPARE,,Projector,Epson,EB-470INS,X8cccccc54,Condemned / Pending Disposal,1335,1/1/2020,Waiting for Condemnation,No,,,,0,0
+cmpccd2rz00zs2jo27fk3erpe,Old Desktop,,DESKTOP,FUJITSU,ESPRIMO E520,X8cccccc71,Condemned / Pending Disposal,1444.5,1/1/2018,Waiting for Condemnation,No,,,,0,0
+cmpc9si7g00zh2jo2v55i6ca6,P01,,Projector,Panasonic,PT-VW540,X8cccccc72,Condemned / Pending Disposal,700,2/10/2022,Waiting for Condemnation,No,,,,0,0
+cmpcbpvwc00zm2jo21om3sv05,V2302_03,,Visualiser,ELMO,MX-P,X8cccccc55,Condemned / Pending Disposal,385,4/3/2020,Waiting for Condemnation,No,,,,0,0
+cmpcbdm2400zk2jo2b954b1zb,V2312_13,,Visualiser,ELMO,MX-P2,X8cccccc63,Condemned / Pending Disposal,385,4/1/2021,Waiting for Condemnation,No,,,,0,0
+cmpccfks700zt2jo2axwow8xu,P24,,Projector,Epson,EB-1940W,X8cccccc57,Condemned / Pending Disposal,968.6,1/1/2020,Waiting for Condemnation,No,,,,0,0
+cmpcalfg700zj2jo2ecu0cgh7,VN11,,Visualiser,Newline,TC-10P,X8cccccc81,Condemned / Pending Disposal,399,21/12/2018,Waiting for Condemnation,No,,,,0,0
+cmpc9qdoi00zg2jo2wlglvis5,VN03,,Visualiser,Newline,TC-10P,X8cccccc78,Condemned / Pending Disposal,399,21/12/2018,Waiting for Condemnation,No,,,,0,0
+cmpcalfg700zj2jo2ecu0cgh8,VN10,,Visualiser,Newline,TC-10P,X8cccccc80,Condemned / Pending Disposal,399,21/12/2018,Waiting for Condemnation,No,,,,0,0
+cmpcbuylj00zo2jo2ubeax5nz,VA03,,Visualiser,AVerVision,315AF+,X8cccccc61,Condemned / Pending Disposal,700,1/1/2020,Waiting for Condemnation,No,,,,0,0
+cmp66oaac00482jo209xf6hcf,VE03,,Visualiser,V Epson,ELPDC21,X8cccccc75,Condemned / Pending Disposal,650,1/1/2015,Waiting for Condemnation,No,,,,0,0
+cmp66oaac004n2jo2on80sdos,VN12,,Visualiser,Newline,TC-10P,X8cccccc82,Condemned / Pending Disposal,399,21/12/2018,Waiting for Condemnation,No,,,,0,0
+cmpcahpl000zi2jo2t6ki9uh0,P06,,Projector,Panasonic,PT-VW530,X8cccccc76,Condemned / Pending Disposal,,10/9/2022,Waiting for Condemnation,No,,,,0,0
