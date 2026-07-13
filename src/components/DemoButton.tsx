@@ -13,20 +13,28 @@ export default function DemoButton() {
     setLoading(true);
     setError("");
 
-    const result = await signIn("credentials", {
-      email: "demo@investorymap.com",
-      password: "demo",
-      redirect: false,
-    });
+    try {
+      // Ensure demo school and user exist, seed data if first run
+      await fetch("/api/demo/reset", { method: "POST" });
 
-    if (result?.error) {
+      const result = await signIn("credentials", {
+        email: "demo@investorymap.com",
+        password: "demo",
+        redirect: false,
+      });
+
+      if (result?.error) {
+        setError("Demo not available");
+        setLoading(false);
+        return;
+      }
+
+      router.push("/dashboard");
+      router.refresh();
+    } catch {
       setError("Demo not available");
       setLoading(false);
-      return;
     }
-
-    router.push("/dashboard");
-    router.refresh();
   };
 
   return (

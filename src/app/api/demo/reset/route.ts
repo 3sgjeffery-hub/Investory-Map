@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
+import bcrypt from "bcryptjs";
 import * as fs from "fs";
 import * as path from "path";
 
@@ -181,20 +182,27 @@ function normaliseStatus(raw: string | undefined): string {
 
 export async function POST() {
   try {
-    // 1. Find the demo school
-    const school = await prisma.school.findUnique({
+    // 1. Create or find the demo school and user
+    const school = await prisma.school.upsert({
       where: { code: "DEMO" },
+      update: {},
+      create: { name: "Demo School", code: "DEMO", address: "Demo" },
       select: { id: true },
     });
-
-    if (!school) {
-      return NextResponse.json(
-        { error: "Demo not configured" },
-        { status: 404 }
-      );
-    }
-
     const schoolId = school.id;
+
+    const passwordHash = await bcrypt.hash("demo", 12);
+    await prisma.user.upsert({
+      where: { email: "demo@investorymap.com" },
+      update: { passwordHash, schoolId },
+      create: {
+        email: "demo@investorymap.com",
+        passwordHash,
+        name: "Demo Admin",
+        role: "SCHOOL_ADMIN",
+        schoolId,
+      },
+    });
 
     // 2. Delete all existing data for the demo school
     await prisma.$transaction([
