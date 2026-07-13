@@ -30,5 +30,6 @@ export default auth((req) => {
 });
 
 export const config = {
-  matcher: ["/dashboard/:path*", "/super-admin/:path*", "/api/((?!auth).*)"],
+  // /api/auth (NextAuth) and /api/demo (public demo provisioning) are open.
+  matcher: ["/dashboard/:path*", "/super-admin/:path*", "/api/((?!auth|demo).*)"],
 };
