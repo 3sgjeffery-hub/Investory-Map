@@ -51,7 +51,7 @@ cmp66oaak00nj2jo2nytij0xi,2018VT37,NIL,Portable Mic,S CHIAYO,ITX3,4SJ-1770076,Te
 cmp66oaak00nl2jo21y8dmrtx,2018VT38,NIL,Portable Mic,S CHIAYO,ITX3,4SJ-1770048,Teacher 15,60,,Operational,Yes,,,,0,0
 cmp66oaaj00ls2jo2c8h92m06,2019VT01,NIL,MIC,S CHIAYO,HC-42,4SJ-1810283,Teacher 16,0,,Others,Yes,,,Spoiled,0,0
 cmp66oaaj00lt2jo24v0whzjr,2019VT01,NIL,MIC,S CHIAYO,ITX2,4SJ-1870120,Custody,0,,Others,Yes,,,Spoiled,0,0
-cmp66oaak00nn2jo2qwr0g419,2019VT02,NIL,Portable Mic,S CHIAYO,ITX2,4SJ-1870104,Custody,60,,Operational,Yes,,,,0,0
+cmp66oaak00nn2jo2qwr0g419,2019VT02,NIL,Portable Mic,S CHIAYO,ITX2,4SJ-1870104,tecahere1,60,,Operational,Yes,,,,0,0
 cmp66oaak00no2jo2wxiwmoxl,ALP-VEP-01,NIL,Portable Mic,Vertical Enhancer,Pro+,SGVEP+001289,Custody,,,Operational,Yes,,,,0,0
 cmp66oaak00np2jo26itviwgg,ALP-VEP-02,NIL,Portable Mic,Vertical Enhancer,Pro+,SGVEP+001290,Custody,,,Operational,Yes,,,,0,0
 cmp66oaak00nq2jo2na5qu0mm,ALP-VEP-03,NIL,Portable Mic,Vertical Enhancer,Pro+,SGVEP+001291,Custody,,,Operational,Yes,,,,0,0
@@ -299,8 +299,134 @@ cmp66oaal00pk2jo2orpwmri0,DSLR3,0001-000760,CAMERA,CANON,EOS 700D,78031010017,CU
 cmp66oaal00pm2jo2zjrqln0z,DSLR4,0001-001013,CAMERA,NIKON,D5300,6732909,CUSTODY,500,,Operational,Yes,,,,0,0
 cmp66oaal00pn2jo22dmjmbqs,DSLR5,0001-001012,CAMERA,NIKON,D40,8039906,CUSTODY,603,,Operational,Yes,,,,0,0
 cmp66oaae008z2jo2c3zf9uqe,E2-01 Cart,0000-001046,Mobile Charging Cart,AV Logic,AVL-QP-R40TB,QP2023xasaxs36,Cart E2-01,3000,12/2/2024,Operational,No,,,,0,3
-cmp66oaal00pg2jo2nd6v45wn,GO1,,CAMERA,GOPRO,HERO 3+,X8cccccc56,CUSTODY,550,,Operational,Yes,,,,0,0
-cmp66oaal00ph2jo20m605hla,GO2,,CAMERA,GOPRO,HERO 3+,X8cccccc57,CUSTODY,550,,Operational,Yes,,,,0,0
+cmp66oaac003j2jo2efew9wlf,E2711_01,,Projector,Epson,EB982W,X8cccccc54,E5-02,,24-Nov-27,Operational,No,,,,0,0
+cmp66oaac003p2jo2jbqtbaf3,E2711_02,,Projector,Epson,EB982W,X8cccccc55,F5-01,,,Operational,No,,,,0,0
+cmp66oaac00312jo2qphb6p5e,E2711_03,,Projector,Epson,EB982W,X8cccccc56,F4-02,,24-Nov-27,Operational,No,,,,0,0
+cmp66oaad005a2jo2g039jz4m,E2711_04,,Projector,Epson,EB982W,X8cccccc57,Spare,1010,24/11/2027,Operational,No,,"Mounting Services: 540
+Projector: 420
+Transmitter: 128
+Dismantle: 50
+4th Warranty: 92
+5th Warranty: 100
+
+Total: Mounting+Projector+Dismantle",,0,0
+cmp66oaab000k2jo2fxerb5r8,E2711_05,,Projector,Epson,EB982W,X8cccccc58,B2-06 Teaching lab,1010,24/11/2027,Operational,No,,"Mounting Services: 540
+Projector: 420
+Transmitter: 128
+Dismantle: 50
+4th Warranty: 92
+5th Warranty: 100
+
+Total: Mounting+Projector+Dismantle",,0,0
+cmp66oaab00102jo218brto33,E2806_06,,Projector,Epson,EB982W,X8cccccc59,Art Room 1,1010,16/6/2028,Operational,No,,"Mounting Services: 540
+Projector: 420
+Transmitter: 128
+Dismantle: 50
+4th Warranty: 92
+5th Warranty: 100
+
+Total: Mounting+Projector+Dismantle",,0,0
+cmp66oaab00152jo24suy8f4w,E2806_07,,Projector,Epson,EB982W,X8cccccc60,Science Lab 1,1010,16/6/2028,Operational,No,,"Mounting Services: 540
+Projector: 420
+Transmitter: 128
+Dismantle: 50
+4th Warranty: 92
+5th Warranty: 100
+
+Total: Mounting+Projector+Dismantle",,0,0
+cmp66oaab001m2jo2aadpkwhc,E2806_08,,Projector,Epson,EB982W,X8cccccc61,LSM,1010,16/6/2028,Operational,No,,"Mounting Services: 540
+Projector: 420
+Transmitter: 128
+Dismantle: 50
+4th Warranty: 92
+5th Warranty: 100
+
+Total: Mounting+Projector+Dismantle",,0,0
+cmp66oaab00222jo2brc73bn0,E2806_09,,Projector,Epson,EB982W,X8cccccc62,F3-01,1010,16/6/2028,Operational,No,,"Mounting Services: 540
+Projector: 420
+Transmitter: 128
+Dismantle: 50
+4th Warranty: 92
+5th Warranty: 100
+
+Total: Mounting+Projector+Dismantle",,0,0
+cmp66oaac00372jo2rtqtvndd,E2806_10,,Projector,Epson,EB982W,X8cccccc63,G4-01,,16-Jun-28,Operational,No,,,,0,0
+cmp66oaac003a2jo2ii8cjbe0,E2806_11,,Projector,Epson,EB982W,X8cccccc64,G4-02,,,Operational,No,,,,0,0
+cmp66oaac003d2jo2t92a7tov,E2806_12,,Projector,Epson,EB982W,X8cccccc65,G4-03,,16-Jun-28,Operational,No,,,,0,0
+cmp66oaac003m2jo2ilqgyyr7,E2806_13,,Projector,Epson,EB982W,X8cccccc66,E5-03,,16-Jun-28,Operational,No,,,,0,0
+cmp66oaaa000b2jo2updbz0x4,E2811_14,,Projector,Epson,EB982W,X8cccccc67,E1-01 Music Room 1,1010,2/11/2028,Operational,No,,"Mounting Services: 540
+Projector: 420
+Transmitter: 128
+Dismantle: 50
+4th Warranty: 92
+5th Warranty: 100
+
+Total: Mounting+Projector+Dismantle",,0,0
+cmp66oaab00182jo2ur66xhcx,E2811_15,,Projector,Epson,EB982W,X8cccccc68,Science Lab 2,960,2/11/2028,Operational,No,,"Mounting Services: 540
+Projector: 420
+Transmitter: 128
+Dismantle: 0 (No charge)
+4th Warranty: 92
+5th Warranty: 100
+
+Total: Mounting+Projector+Dismantle",,0,0
+cmp66oaac002a2jo20ftkeafm,E2811_16,,Projector,Epson,EB982W,X8cccccc69,G3-02,960,2/11/2028,Operational,No,,,,0,0
+cmp66oaac002g2jo2rhe3iqos,E2811_17,,Projector,Epson,EB982W,X8cccccc70,G3-04,960,2/11/2028,Operational,No,,,,0,0
+cmp66oaac002j2jo2h8v52s6p,E2811_18,,Projector,Epson,EB982W,X8cccccc71,G3-05,960,2/11/2028,Operational,No,,,,0,0
+cmp66oaac002v2jo2fhwkicy0,E2811_19,,Projector,Epson,EB982W,X8cccccc72,E4-03,,,Operational,No,,,,0,0
+cmp66oaac00342jo2foj2apba,E2811_20,,Projector,Epson,EB982W,X8cccccc73,F4-03,,,Operational,No,,,,0,0
+cmp66oaac00412jo28u9np3fv,E2811_21,,Projector,Epson,EB982W,X8cccccc74,G5-02,,,Operational,No,,,,0,0
+cmp66oaac004d2jo2xllrsvwt,E2905_22,,Projector,Epson,EB982W,X8cccccc75,E6-03,,15-May-29,Operational,No,,,,0,0
+cmp66oaac00252jo2tj1dax08,E2905_23,,Projector,Epson,EB982W,X8cccccc76,F3-02,1010,15/5/2029,Operational,No,,"Mounting Services: 540
+Projector: 420
+Transmitter: 128
+Dismantle: 50
+4th Warranty: 92
+5th Warranty: 100
+
+Total: Mounting+Projector+Dismantle",,0,0
+cmp66oaab001q2jo2pl25aogf,E2905_24,,Projector,Epson,EB982W,X8cccccc77,Art Room 2,1010,17/5/2029,Operational,No,,"Mounting Services: 540
+Projector: 420
+Transmitter: 128
+Dismantle: 50
+4th Warranty: 92
+5th Warranty: 100
+
+Total: Mounting+Projector+Dismantle",,0,0
+cmp66oaab000x2jo216njj061,E2905_25,,Projector,Epson,EB982W,X8cccccc78,LSP,1010,17/5/2029,Operational,No,,"Mounting Services: 540
+Projector: 420
+Transmitter: 128
+Dismantle: 50
+4th Warranty: 92
+5th Warranty: 100
+
+Total: Mounting+Projector+Dismantle",,0,0
+cmp66oaab001z2jo2vsiqjfa3,E2909_26,,Projector,Epson,EB982W,X8cccccc79,E3-04 Math Room,1010,15/5/2029,Operational,No,,"Mounting Services: 540
+Projector: 420
+Transmitter: 128
+Dismantle: 50
+4th Warranty: 92
+5th Warranty: 100
+
+Total: Mounting+Projector+Dismantle",,0,0
+cmp66oaac003v2jo2g1ap6yr9,E2909_27,,Projector,Epson,EB982W,X8cccccc80,E5-03,,15-May-29,Operational,No,,,,0,0
+cmp66oaac003s2jo2gh7ppl66,E2909_28,,Projector,Epson,EB982W,X8cccccc81,E5-02,,15-May-29,Operational,No,,,,0,0
+cmp66oaac00442jo285sbkmqs,E2909_29,,Projector,Epson,EB982W,X8cccccc82,G5-03,1010,15/9/2029,Operational,No,,"Mounting Services: 540
+Projector: 420
+Transmitter: 128
+Dismantle: 50
+4th Warranty: 92
+5th Warranty: 100
+
+Total: Mounting+Projector+Dismantle",,0,0
+cmp66oaab001w2jo2owoi7avx,E2909_30,,Projector,Epson,EB982W,X8cccccc83,E3-03 SBB Room 2,1010,15/5/2029,Operational,No,,"Mounting Services: 540
+Projector: 420
+Transmitter: 128
+Dismantle: 50
+4th Warranty: 92
+5th Warranty: 100
+
+Total: Mounting+Projector+Dismantle",,0,0
 cmp66oaae007y2jo23rk0xew0,E3-04 Cart,0000-000922,Mobile Charging Cart,ERGOTRON,N31508,1252670-asxas,Cart E3-04,700,,Operational,No,,,,0,0
 cmp66oaag00di2jo2po6l387e,E4-03 Cart,L00094316,Mobile Charging Cart,V-lab,V-Lab 40,asxqwd,E4-03,0,,Operational,No,,Leasing,iPad Cart 3,0,0
 cmp66oaad006x2jo2nrgjhp4y,ECPS-HD01,0054-000202,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
@@ -335,6 +461,156 @@ cmp66oaae007p2jo23wnmos67,ECPS-HD31,0054-000288,Portable HD,HP,PX3100,8CY448xxxx
 cmp66oaae007q2jo2twd49w5t,ECPS-HD62,0054-000264,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
 cmp66oaae007r2jo20tz32i8c,ECPS-HD63,0054-000261,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
 cmp66oaae007s2jo2igw9u9gt,ECPS-HD66,0054-000207,Portable HD,HP,PX3100,8CY448xxxx,Custody,,,Operational,Yes,,,,0,0
+cmp66oaad00592jo23dtig8mb,E SPARE,,Projector,Epson,EB-470INS,X8cccccc54,Condemned / Pending Disposal,1335,1/1/2020,Waiting for Condemnation,No,,,,0,0
+cmp66oaaf00b82jo2wt19p71g,F4-03 Cart,0000-001045,Mobile Charging Cart,AV Logic,AVQP-R40TB-SYNC,X8cccccc55,F4-03,,5-Jul-23,Operational,No,,,,1,0
+cmp66oaal00pg2jo2nd6v45wn,GO1,,CAMERA,GOPRO,HERO 3+,X8cccccc56,CUSTODY,550,,Operational,Yes,,,,0,0
+cmp66oaal00ph2jo20m605hla,GO2,,CAMERA,GOPRO,HERO 3+,X8cccccc57,CUSTODY,550,,Operational,Yes,,,,0,0
+cmp66oaag00dj2jo248c7b5ni,Ipad 3-1,L00094076,IPAD,APPLE,iPad (A16),X8cccccc58,E4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaag00dk2jo2tyhogd78,Ipad 3-2,L00094077,IPAD,APPLE,iPad (A16),X8cccccc59,E4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaag00dl2jo25k4yngrj,Ipad 3-3,L00094078,IPAD,APPLE,iPad (A16),X8cccccc60,E4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaag00dm2jo2umwgdfwn,Ipad 3-4,L00094079,IPAD,APPLE,iPad (A16),X8cccccc61,E4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaag00dn2jo2tx0klv2x,Ipad 3-5,L00094080,IPAD,APPLE,iPad (A16),X8cccccc62,E4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaag00do2jo21ev3w6rp,Ipad 3-6,L00094081,IPAD,APPLE,iPad (A16),X8cccccc63,E4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaag00dp2jo2tatamnad,Ipad 3-7,L00094082,IPAD,APPLE,iPad (A16),X8cccccc64,E4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaag00dq2jo2oakb772z,Ipad 3-8,L00094083,IPAD,APPLE,iPad (A16),X8cccccc65,E4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaag00dr2jo2zdmo5q4j,Ipad 3-9,L00094084,IPAD,APPLE,iPad (A16),X8cccccc66,E4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaag00ds2jo2tf7d4juj,Ipad 3-10,L00094085,IPAD,APPLE,iPad (A16),X8cccccc67,E4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaag00dt2jo2e76ozecu,Ipad 3-11,L00094086,IPAD,APPLE,iPad (A16),X8cccccc68,E4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaag00du2jo2iz1c65tt,Ipad 3-12,L00094087,IPAD,APPLE,iPad (A16),X8cccccc69,E4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaag00dv2jo2kbw0e3tt,Ipad 3-13,L00094088,IPAD,APPLE,iPad (A16),X8cccccc70,E4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaag00dw2jo2j58ifb9c,Ipad 3-14,L00094089,IPAD,APPLE,iPad (A16),X8cccccc71,E4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaag00dx2jo236z11thn,Ipad 3-15,L00094090,IPAD,APPLE,iPad (A16),X8cccccc72,E4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaag00dy2jo2gug9rkp1,Ipad 3-16,L00094091,IPAD,APPLE,iPad (A16),X8cccccc73,E4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaag00dz2jo2xjzwdlxq,Ipad 3-17,L00094092,IPAD,APPLE,iPad (A16),X8cccccc74,E4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaag00e02jo279qbhbws,Ipad 3-18,L00094093,IPAD,APPLE,iPad (A16),X8cccccc75,E4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaag00e12jo28lw1yjr4,Ipad 3-19,L00094094,IPAD,APPLE,iPad (A16),X8cccccc76,E4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaag00e22jo2f80f87ij,Ipad 3-20,L00094095,IPAD,APPLE,iPad (A16),X8cccccc77,E4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaag00e32jo2bqltqovj,Ipad 3-21,L00094096,IPAD,APPLE,iPad (A16),X8cccccc78,E4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaag00e42jo27g19yhti,Ipad 3-22,L00094097,IPAD,APPLE,iPad (A16),X8cccccc79,E4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaag00e52jo26k32een0,Ipad 3-23,L00094098,IPAD,APPLE,iPad (A16),X8cccccc80,E4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaag00e62jo2oi4cgm3w,Ipad 3-24,L00094099,IPAD,APPLE,iPad (A16),X8cccccc81,E4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaag00e72jo2pz1fb81i,Ipad 3-25,L00094100,IPAD,APPLE,iPad (A16),X8cccccc82,E4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaag00e82jo2r9ger3vq,Ipad 3-26,L00094101,IPAD,APPLE,iPad (A16),X8cccccc83,E4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaag00e92jo27tewk4li,Ipad 3-27,L00094102,IPAD,APPLE,iPad (A16),NR607V,E4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaag00ea2jo2z6hpcpue,Ipad 3-28,L00094103,IPAD,APPLE,iPad (A16),Q546H,E4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaag00eb2jo2hhzcd620,Ipad 3-29,L00094104,IPAD,APPLE,iPad (A16),Y3R6G,E4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaag00ec2jo2dc8sfioh,Ipad 3-30,L00094105,IPAD,APPLE,iPad (A16),CXM5F,E4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaag00ed2jo2cv7euf8h,Ipad 3-31,L00094106,IPAD,APPLE,iPad (A16),QGVM,E4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaag00ee2jo2ywp7yueq,Ipad 3-32,L00094107,IPAD,APPLE,iPad (A16),WWKH,E4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaag00ef2jo2a31cqz8n,Ipad 3-33,L00094108,IPAD,APPLE,iPad (A16),L3R4G,E4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaag00eg2jo2x66dywe4,Ipad 3-34,L00094109,IPAD,APPLE,iPad (A16),NR607V,E4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaag00eh2jo2f3m7w2yk,Ipad 3-35,L00094110,IPAD,APPLE,iPad (A16),Q546H,E4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaag00ei2jo20y056fre,Ipad 3-36,L00094111,IPAD,APPLE,iPad (A16),Y3R6G,E4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaag00ej2jo2guwhlmb5,Ipad 3-37,L00094112,IPAD,APPLE,iPad (A16),CXM5F,E4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaag00ek2jo2q8fiy6pt,Ipad 3-38,L00094113,IPAD,APPLE,iPad (A16),QGVM,E4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaag00el2jo2ws0nhn8c,Ipad 3-39,L00094114,IPAD,APPLE,iPad (A16),WWKH,E4-03,0,,Operational,No,,Leasing,,0,0
+cmp66oaag00em2jo2h8a7a1x0,Ipad 3-40,L00094115,IPAD,APPLE,iPad (A16),L3R4G,E4-03,0,,Operational,No,,Leasing,,0,0
+cmpccaqws00zr2jo2may2yxj0,iPad Cart 2,,iPad Cart,iPad Cart,AVER,4060,Condemned / Pending Disposal,3156.5,1/1/2020,Waiting for Condemnation,No,,,Leg issue,0,0
+cmp66oaac002d2jo21pvchn0u,O2512_01,,Projector,Optoma,ZW406,X8cccccc54,G3-03,1150,29/12/2025,Operational,No,,,,0,0
+cmp66oaac002y2jo2tzvcotgt,O2512_02,,Projector,Optoma,ZW406,X8cccccc55,F4-01,,29-Dec-25,Operational,No,,,,0,0
+cmp66oaac003y2jo2wxm5g31n,O2512_03,,Projector,Optoma,ZW406,X8cccccc56,G5-01,,29-Dec-25,Operational,No,,,,0,0
+cmp66oaac00472jo2o14u9g3e,O2512_04,,Projector,Optoma,ZW406,X8cccccc57,E6-01,,29-Dec-25,Operational,No,,,,0,0
+cmp66oaac004a2jo217z32u0t,O2512_05,,Projector,Optoma,ZW406,X8cccccc58,E6-02,,29-Dec-25,Operational,No,,,,0,0
+cmp66oaac004g2jo2ru58fw1o,O2512_06,,Projector,Optoma,ZW406,X8cccccc59,F6-01,,29-Dec-25,Operational,No,,,,0,0
+cmp66oaac004j2jo2g0bem2h4,O2512_07,,Projector,Optoma,ZW406,X8cccccc60,F6-02,,29-Dec-25,Operational,No,,,,0,0
+cmp66oaac004m2jo2h8dmzro2,O2512_08,,Projector,Optoma,ZW406,X8cccccc61,F6-03,,29-Dec-25,Operational,No,,,,0,0
+cmp66oaac004p2jo2amjbjni8,O2512_09,,Projector,Optoma,ZW406,X8cccccc62,E7-01,,29-Dec-25,Operational,No,,,,0,0
+cmp66oaac004s2jo2332thr3z,O2512_10,,Projector,Optoma,ZW406,X8cccccc63,E7-02,,29-Dec-25,Operational,No,,,,0,0
+cmp66oaac004v2jo2b7t3yk2y,O2512_11,,Projector,Optoma,ZW406,X8cccccc64,E7-03,,29-Dec-25,Operational,No,,,,0,0
+cmp66oaac004y2jo29guywidt,O2512_12,,Projector,Optoma,ZW406,X8cccccc65,F7-01,,29-Dec-25,Operational,No,,,,0,0
+cmp66oaac00512jo28e8wy1pd,O2512_13,,Projector,Optoma,ZW406,X8cccccc66,F7-02,,29-Dec-25,Operational,No,,,,0,0
+cmp66oaad00542jo2xu2uuevn,O2512_14,,Projector,Optoma,ZW406,X8cccccc67,F7-03,,,Operational,No,,,,0,0
+cmp66oaad005c2jo2giu2zgzy,O2512_15,,Projector,Optoma,ZW406,X8cccccc68,Spare,1150,29/12/2025,Operational,No,,,,0,0
+cmp66oaac003g2jo2v4z8l4xf,O2612_16,,Projector,Optoma,ZW406,X8cccccc69,E5-01,,15-Dec-26,Operational,No,,,,0,0
+cmpccd2rz00zs2jo27fk3erpe,Old Desktop,,DESKTOP,FUJITSU,ESPRIMO E520,X8cccccc71,Condemned / Pending Disposal,1444.5,1/1/2018,Waiting for Condemnation,No,,,,0,0
+cmpc9si7g00zh2jo2v55i6ca6,P01,,Projector,Panasonic,PT-VW540,X8cccccc72,Condemned / Pending Disposal,700,2/10/2022,Waiting for Condemnation,No,,,,0,0
+cmp66oaaa000a2jo2x5vko8ev,P03,,Projector,Panasonic,PT-VW540,X8cccccc73,D1-02 PAL Room 2,758,4/1/2023,Operational,No,,,,0,0
+cmp66oaab000e2jo2mpq41iw6,P04,,Projector,Panasonic,PT-EZ-590A,X8cccccc74,E1-02 Band Room,1981,14/2/2024,Operational,No,,,,0,0
+cmp66oaab000g2jo2f5rosnpa,P05,,Projector,Panasonic,PT-VW540,X8cccccc75,E1-02 Band Room,758,12/1/2023,Operational,No,,,,0,0
+cmpcahpl000zi2jo2t6ki9uh0,P06,,Projector,Panasonic,PT-VW530,X8cccccc76,Condemned / Pending Disposal,,10/9/2022,Waiting for Condemnation,No,,,,0,0
+cmp66oaab000o2jo2yuechisa,P08,,Projector,Panasonic,PT-VW540,X8cccccc77,Learning Room 1,758,24/1/2023,Operational,No,,,,0,0
+cmp66oaab00132jo2racvvjpm,P10,,Projector,Panasonic,PT-VW540,X8cccccc78,Spare,758,24/1/2023,Operational,No,,,,0,0
+cmp66oaab001b2jo28a3uuoqb,P11,,Projector,Panasonic,PT-VW540,X8cccccc79,Spare,700,24/1/2023,Operational,No,,,,0,0
+cmp66oaab000q2jo2b9fflmon,P12,,Projector,Panasonic,PT-VW540,X8cccccc80,Learning Lab 3,758,24/1/2023,Operational,No,,,,0,0
+cmp66oaaa00082jo2t1gg4fen,P13,,Projector,Panasonic,PT-VW540,X8cccccc81,D1-02 PAL Room 1,758,12/1/2023,Operational,No,,,,0,0
+cmp66oaad005b2jo2bb0di1rb,P14,,Projector,Panasonic,PT-VW540,X8cccccc82,LBS1,758,12/1/2023,Operational,No,,,,0,0
+cmp66oaab001u2jo2zkk0u2vm,P16,,Projector,Panasonic,PT-VW540,X8cccccc83,E3-02 SBB Room 1,,24/1/2023,Operational,No,,,,0,0
+cmp66oaac00282jo26i40sxbf,P18,,Projector,Panasonic,PT-VW540,X8cccccc54,G3-01,758,27/5/2023,Operational,No,,,,0,0
+cmp66oaad00582jo2iwz5f4z9,P19,,Projector,Panasonic,PT-VW540,X8cccccc55,Meeting Room 2,,,Operational,No,,,,0,0
+cmp66oaab000s2jo2gh5w0g6t,P23,,Projector,Panasonic,PT-VW530,X8cccccc56,Learning Lab 2,758,19/12/2021,Operational,No,,,,0,0
+cmpccfks700zt2jo2axwow8xu,P24,,Projector,Epson,EB-1940W,X8cccccc57,Condemned / Pending Disposal,968.6,1/1/2020,Waiting for Condemnation,No,,,,0,0
+cmp66oaab001s2jo272k7g1il,P27,,Projector,Panasonic,PT-VW530,X8cccccc58,Spare,758,28/5/2022,Operational,No,,,,0,0
+cmp66oaab000m2jo2x9kk9alq,P30,,Projector,Panasonic,PT-VW530,X8cccccc59,ITLR,758,2/3/2022,Operational,No,,,,0,0
+cmp66oaaa00072jo2srgzbj0w,P34,,Projector,Panasonic,PT-VW530,X8cccccc60,D1-01 Dance Studio,758,11/1/2022,Operational,No,,,,0,0
+cmp66oaac002l2jo2ifjfcnsf,PatchPanel,,Patch Panel,Optvio,PS5H,X8cccccc61,G3-05,128,2/11/2026,Operational,No,,speaker: 29952,,0,0
+cmp66oaab00172jo272ydlmsq,PatchPanel,,Patch Panel,Optvio,PS5H,X8cccccc62,Science Lab 1,128,16/6/2026,Operational,No,,Speaker: 29403,,0,0
+cmp66oaab00122jo2jlth3rzt,PatchPanel,,Patch Panel,Optvio,PS5H,X8cccccc63,Art Room 1,128,16/6/2026,Operational,No,,Speaker: 29405,,0,0
+cmp66oaac003r2jo2s4xn311b,PatchPanel,,PatchPanel,Optvio,PS5H,X8cccccc64,F5-01,,,Operational,No,,,,0,0
+cmp66oaab000j2jo2k41690mo,PatchPanel,,Patch Panel,ABtUS,AVS-390,X8cccccc65,E1-03 Music Room 2,0,13/3/2027,Operational,No,,,,0,0
+cmp66oaac003o2jo2nydyij9q,PatchPanel,,PatchPanel,Optvio,PS5H,X8cccccc66,E5-03,,,Operational,No,,Speaker: 29401,,0,0
+cmp66oaac004u2jo2k42423y6,PatchPanel,,PatchPanel,,,X8cccccc67,E7-02,,,Operational,No,,,,0,0
+cmp66oaab000z2jo2ubyvibeg,PatchPanel,,PatchPanel,Optvio,PS5H,X8cccccc68,LSP,128,15/5/2027,Operational,No,,speaker: 40756,,0,0
+cmp66oaab001r2jo2vjtnifaw,PatchPanel,,Patch Panel,Optvio,PS5H,X8cccccc69,Art Room 2,128,16/6/2027,Operational,No,,Speaker: 43241,,0,0
+cmp66oaab001a2jo2mrl9m2sx,PatchPanel,,Patch Panel,Optvio,PS5H,X8cccccc70,Science Lab 2,128,2/11/2026,Operational,No,,speaker: 29947,,0,0
+cmp66oaab001o2jo2vcx91iqq,PatchPanel,,Patch Panel,Optvio,PS5H,X8cccccc71,LSM,128,16/6/2027,Operational,No,,speaker: 43242,,0,0
+cmp66oaac002o2jo2zvppzuci,PatchPanel,,Patch Panel,ABtUS,AVS-390,X8cccccc72,G3-06,0,25/2/2028,Operational,No,,,take note  it looks like an old stock,0,0
+cmp66oaaa00062jo2thvar8ix,PatchPanel,,Patch Panel,ABtUS,AVS-390,X8cccccc73,Conference Room,0,13/3/2027,Operational,No,,,,0,0
+cmp66oaab00212jo2pkgpywaf,PatchPanel,,Patch Panel,Optvio,PS5H,X8cccccc74,E3-04 Math Room,128,15/5/2025,Operational,No,,Speaker: 41032,,0,0
+cmp66oaab001y2jo2lq4bh7o0,PatchPanel,,Patch Panel,Optvio,PS5H,X8cccccc75,E3-03 SBB Room 2,128,15/5/2025,Operational,No,,speaker: 41104,,0,0
+cmp66oaac00242jo2x05nh01r,PatchPanel,,Patch Panel,Optvio,PS5H,X8cccccc76,F3-01,128,16/6/2026,Operational,No,,Speaker: 29406,,0,0
+cmp66oaac00272jo2w6adk7lz,PatchPanel,,Patch Panel,Optvio,PS5H,X8cccccc77,F3-02,128,15/5/2027,Operational,No,,speaker: 40755,,0,0
+cmp66oaab001l2jo2vy7y9evj,PatchPanel,,PatchPanel,,,X8cccccc78,F2-03,0,12/2/2028,Operational,No,,,,0,0
+cmp66oaab001i2jo2vm56acjv,PatchPanel,,PatchPanel,,,X8cccccc79,F2-02,0,12/2/2028,Operational,No,,,,0,0
+cmp66oaac003i2jo2ajt5j77o,PatchPanel,,PatchPanel,-,-,X8cccccc80,E5-01,,,Operational,No,,,,0,0
+cmp66oaac004i2jo2iq8rwvw9,PatchPanel,,PatchPanel,,,X8cccccc81,F6-01,,,Operational,No,,,,0,0
+cmp66oaaa00012jo2ehhzfe56,PatchPanel,,Patch Panel,ABtUS,TP-051-White,X8cccccc82,HALL,900,8/12/2025,Operational,No,,,,0,0
+cmp66oaac004o2jo2h5f1i6fh,PatchPanel,,PatchPanel,,,X8cccccc83,F6-03,,,Operational,No,,,,0,0
+cmp66oaac004f2jo2onbv1u09,PatchPanel,,PatchPanel,Optvio,PS5H,OPT-031424,E6-03,,,Operational,No,,speaker: 40754,,0,0
+cmp66oaac004c2jo26bks118r,PatchPanel,,PatchPanel,,,Mar21017781,E6-02,,,Operational,No,,,,0,0
+cmp66oaac004r2jo24001v7ed,PatchPanel,,PatchPanel,,,Mar21017773,E7-01,,,Operational,No,,,,0,0
+cmp66oaac00492jo2ntasuz6x,PatchPanel,,PatchPanel,,,Mar21017587,E6-01,,,Operational,No,,,,0,0
+cmp66oaab000l2jo2xc1cw3e4,PatchPanel,,Patch Panel,Optvio,PS5H,OPT-017987A,B2-06 Teaching lab,128,24/11/2025,Operational,No,,,,0,0
+cmp66oaac00462jo2h5mebhzv,PatchPanel,,PatchPanel,Optvio,PS5H,OPT-32146,G5-03,,,Operational,No,,speaker: 41105,,0,0
+cmp66oaac00432jo2ze9oqfgt,PatchPanel,,PatchPanel,Optvio,PS5H,OPT-030206,G5-02,,,Operational,No,,speaker: 29949,,0,0
+cmp66oaac00402jo2sr3fofv8,PatchPanel,,PatchPanel,,,Mar21017794,G5-01,,,Operational,No,,,,0,0
+cmp66oaab001f2jo2rcrx5a5x,PatchPanel,,PatchPanel,,,320-T1-10671,F2-01,0,12/2/2028,Operational,No,,,,0,0
+cmp66oaac00502jo2v150q1r6,PatchPanel,,PatchPanel,,,Mar21017777,F7-01,,,Operational,No,,,,0,0
+cmp66oaac003x2jo23pqqjdxg,PatchPanel,,PatchPanel,Optvio,PS5H,OPT-32149,F5-03,,,Operational,No,,speaker: 41107,,0,0
+cmp66oaac003u2jo2qdbw6ufi,PatchPanel,,PatchPanel,Optvio,PS5H,OPT-32148,F5-02,,,Operational,No,,speaker: 41106,,0,0
+cmp66oaab000d2jo2asmnsw99,PatchPanel,,Patch Panel,Optvio,PS5H,OPT-030203,E1-01 Music Room 1,128,2/11/2026,Operational,No,,speaker: 29953,,0,0
+cmp66oaad00532jo2wz97unuj,PatchPanel,,PatchPanel,,,Mar21017778,F7-02,,,Operational,No,,,,0,0
+cmp66oaac003c2jo2gw3mdo88,PatchPanel,,PatchPanel,Optvio,PS5H,OPT-018967,G4-02,,,Operational,No,,Speaker: 29400,,0,0
+cmp66oaac003f2jo2cyt2d43q,PatchPanel,,PatchPanel,Optvio,PS5H,OPT-018955,G4-03,,,Operational,No,,Speaker: 29404,,0,0
+cmp66oaad00562jo2zpxtsxme,PatchPanel,,PatchPanel,,,Mar21017783,F7-03,,,Under Maintenance,No,,,,1,0
+cmp66oaac004x2jo2jb9o5z9z,PatchPanel,,PatchPanel,,,Jan203024874,E7-03,,,Operational,No,,,,0,0
+cmp66oaac003l2jo2we47l2qk,PatchPanel,,PatchPanel,Optvio,PS5H,OPT-018415A,E5-02,,,Operational,No,,,,0,0
+cmp66oaac004l2jo2pa422zx7,PatchPanel,,PatchPanel,,,Mar21017584,F6-02,,,Operational,No,,,,0,0
+cmp66oaac002c2jo26qjlot64,PatchPanel,,Patch Panel,Optvio,PS5H,OPT-030208,G3-02,128,2/11/2026,Operational,No,,speaker: 29954,,0,0
+cmp66oaac002f2jo2042yoidl,PatchPanel,,Patch Panel,,,Mar21017600,G3-03,550,30/6/2026,Operational,No,,,,0,0
+cmp66oaab000w2jo2s40jn67y,PatchPanel,,Patch Panel,,,320-T1-10675,Learning Lab 1,0,18/2/2028,Operational,No,,,,0,0
+cmp66oaac002i2jo2kdct5lk0,PatchPanel,,Patch Panel,Optvio,PS5H,OPT-030209,G3-04,128,2/11/2026,Operational,No,,speaker: 29948,,0,0
+cmp66oaac002r2jo2pfwmblh4,PatchPanel,,PatchPanel,,,320-T1-10672,E4-01,0,,Operational,No,,,,0,0
+cmp66oaac002u2jo20no6u1g4,PatchPanel,,PatchPanel,,,320-T1-10676,E4-02,0,,Operational,No,,,,0,0
+cmp66oaac002x2jo2dxc6bodz,PatchPanel,,PatchPanel,Optvio,PS5H,OPT-030205,E4-03,,,Operational,No,,speaker: 29951,,0,0
+cmp66oaac00302jo2smy20yqq,PatchPanel,,PatchPanel,,,Mar21017601,F4-01,,,Operational,No,,,,0,0
+cmp66oaac00332jo2r7d7i2wx,PatchPanel,,PatchPanel,Optvio,PS5H,OPT-017985A,F4-02,,,Operational,No,,,,0,0
+cmp66oaac00362jo2h44t5znd,PatchPanel,,PatchPanel,Optvio,PS5H,OPT-030207,F4-03,,,Operational,No,,speaker: 29950,,0,0
+cmp66oaac00392jo2udt2x28s,PatchPanel,,PatchPanel,Optvio,PS5H,OPT-018954,G4-01,,,Operational,No,,Speaker: 29402,,0,0
+cmp66oaaa00002jo26i8btiq3,P Hall,0054-000155,Projector,Panasonic,PT-MZ16K,X8cccccc54,HALL,17508,8/12/2027,Operational,No,,"Hall projector: 9588
+lens: 3080
+4th warranty: 478
+5th warranty: 575
+mounting: 2500
+Scaffolding: 380
+Accessories: 1800
+Transmitter:900
+Dismantle: 160
+Preventive maintenance: 200
+
+Total amount: Projector+lens+mounting+Scaffolding+accessories+dismantle",,0,0
+cmp66oaaa00032jo2d6wmmm62,P Hall side,,Projector,Panasonic,PT-RZ660,X8cccccc55,HALL,6695,11/2/2024,Operational,No,,,,0,0
+cmp66oaaa00022jo2mnluxcwh,P Hall side,,Projector,Panasonic,PT-RZ660,X8cccccc56,HALL,6695,11/2/2024,Operational,No,,,,0,0
+cmp66oaaa00042jo289raq7tq,P PAC,,Projector,Panasonic,PT-EZ-590A,X8cccccc57,D1-05 PAC Lobby,1981,14/1/2024,Operational,No,,,,0,0
 cmp66oaal00q12jo2j0ovlgrd,SC1,,Monitor,ACER,V206HQL,X8cccccc58,Teacher 1,,,Operational,No,,,,0,0
 cmp66oaal00qa2jo2skorefsu,SC10,,Monitor,ACER,V206HQL,X8cccccc59,Teacher 2,,,Operational,No,,,,0,0
 cmp66oaal00qb2jo2fywz8a7u,SC11,,Monitor,ACER,V206HQL,X8cccccc60,Teacher 3,,,Operational,No,,,,0,0
@@ -378,18 +654,121 @@ cmp66oaae007v2jo2x0um1l6b,SMAX,0054-001047,S-Max,APPLE,MM6R3ZP/A,C91YXPWGDX,Teac
 cmp66oaae007w2jo2crtvzt5s,SMAX,0054-001048,S-Max,APPLE,MK8C3ZP/A,W9JY74VLYK,Teacher 40,,,Operational,No,,27 Jan 2023 - Singtel,ONE6177722945,0,0
 cmp66oaae007x2jo24y2gzosp,SMAX Pencil,,S-Max,APPLE,MU8F2ZA/A,HK2JJLH7JKM9,Teacher 41,,,Operational,No,,27 Jan 2023 - Singtel,,0,0
 cmp66oaab000r2jo25shbb30o,S Spare,,Visualiser,SAMSUNG,UF 80ST,X8cccccc53,Teacher 42,2175,1/1/2022,Operational,No,,,,0,0
-cmp66oaaf00b82jo2wt19p71g,F4-03 Cart,0000-001045,Mobile Charging Cart,AV Logic,AVQP-R40TB-SYNC,X8cccccc55,F4-03,,,Operational,No,,,,1,0
-cmpccaqws00zr2jo2may2yxj0,iPad Cart 2,,iPad Cart,iPad Cart,AVER,4060,Condemned / Pending Disposal,3156.5,1/1/2020,Waiting for Condemnation,No,,,Leg issue,0,0
-cmp66oaad00592jo23dtig8mb,E SPARE,,Projector,Epson,EB-470INS,X8cccccc54,Condemned / Pending Disposal,1335,1/1/2020,Waiting for Condemnation,No,,,,0,0
-cmpccd2rz00zs2jo27fk3erpe,Old Desktop,,DESKTOP,FUJITSU,ESPRIMO E520,X8cccccc71,Condemned / Pending Disposal,1444.5,1/1/2018,Waiting for Condemnation,No,,,,0,0
-cmpc9si7g00zh2jo2v55i6ca6,P01,,Projector,Panasonic,PT-VW540,X8cccccc72,Condemned / Pending Disposal,700,2/10/2022,Waiting for Condemnation,No,,,,0,0
+cmp66oaac002q2jo23uc6fqyc,V2302_02,,Visualiser,ELMO,MX-P,X8cccccc54,E4-01,,,Operational,No,,,,0,0
 cmpcbpvwc00zm2jo21om3sv05,V2302_03,,Visualiser,ELMO,MX-P,X8cccccc55,Condemned / Pending Disposal,385,4/3/2020,Waiting for Condemnation,No,,,,0,0
+cmp66oaac002z2jo2b8p3xqzg,V2302_04,,Visualiser,ELMO,MX-P,X8cccccc56,F4-01,,,Operational,No,,,,0,0
+cmp66oaac00322jo2c8erc2hi,V2302_05,,Visualiser,ELMO,MX-P,X8cccccc57,F4-02,,,Operational,No,,,,0,0
+cmp66oaac003b2jo2k4g63t9w,V2312_07,,Visualiser,ELMO,MX-P2,X8cccccc58,G4-02,,,Operational,No,,,,0,0
+cmp66oaac003e2jo2dzjg23ju,V2312_08,,Visualiser,ELMO,MX-P2,X8cccccc59,G4-03,,,Operational,No,,,,0,0
+cmp66oaac003z2jo213cs0gpg,V2312_09,,Visualiser,ELMO,MX-P2,X8cccccc60,G5-01,,,Operational,No,,,,0,0
+cmp66oaac00422jo2fblmloik,V2312_10,,Visualiser,ELMO,MX-P2,X8cccccc61,G5-02,,,Operational,No,,,,0,0
+cmp66oaac004q2jo2w8gtrijc,V2312_11,,Visualiser,ELMO,MX-P2,X8cccccc62,E7-01,,,Operational,No,,,,0,0
 cmpcbdm2400zk2jo2b954b1zb,V2312_13,,Visualiser,ELMO,MX-P2,X8cccccc63,Condemned / Pending Disposal,385,4/1/2021,Waiting for Condemnation,No,,,,0,0
-cmpccfks700zt2jo2axwow8xu,P24,,Projector,Epson,EB-1940W,X8cccccc57,Condemned / Pending Disposal,968.6,1/1/2020,Waiting for Condemnation,No,,,,0,0
-cmpcalfg700zj2jo2ecu0cgh7,VN11,,Visualiser,Newline,TC-10P,X8cccccc81,Condemned / Pending Disposal,399,21/12/2018,Waiting for Condemnation,No,,,,0,0
-cmpc9qdoi00zg2jo2wlglvis5,VN03,,Visualiser,Newline,TC-10P,X8cccccc78,Condemned / Pending Disposal,399,21/12/2018,Waiting for Condemnation,No,,,,0,0
-cmpcalfg700zj2jo2ecu0cgh8,VN10,,Visualiser,Newline,TC-10P,X8cccccc80,Condemned / Pending Disposal,399,21/12/2018,Waiting for Condemnation,No,,,,0,0
+cmp66oaad00522jo2lq6kplla,V2312_14,,Visualiser,ELMO,MX-P2,X8cccccc64,F7-02,,,Operational,No,,,,0,0
+cmp66oaad00552jo21hfg7gz0,V2312_15,,Visualiser,ELMO,MX-P2,X8cccccc65,F7-03,,,Operational,No,,,,0,0
+cmp66oaab000t2jo2n3oq5f2e,V2502_16,,Visualiser,ELMO,MX-P3,X8cccccc66,Learning Lab 2,385,11/2/2025,Operational,No,,,,0,0
+cmp66oaab001h2jo2to6n09pv,V2502_17,,Visualiser,ELMO,MX-P3,X8cccccc67,F2-02,385,11/2/2025,Operational,No,,,,0,0
+cmp66oaab00232jo2tno3nkqv,V2502_18,,Visualiser,ELMO,MX-P3,X8cccccc68,F3-01,385,11/2/2025,Operational,No,,,,0,0
+cmp66oaac002w2jo20pama739,V2502_19,,Visualiser,ELMO,MX-P3,X8cccccc69,E4-03,,,Operational,No,,,,0,0
+cmp66oaac004z2jo2omrl8n1w,V2502_20,,Visualiser,ELMO,MX-P3,X8cccccc70,F7-01,,,Operational,No,,,,0,0
+cmp66oaab00162jo28fs68aca,V2503_21,,Visualiser,ELMO,MX-P3,X8cccccc71,Science Lab 1,385,24/3/2025,Operational,No,,,,0,0
+cmp66oaab001c2jo288r06o77,V2503_22,,Visualiser,ELMO,MX-P3,X8cccccc72,LSM,385,24/3/2025,Operational,No,,,,0,0
+cmp66oaab001t2jo2x3wr38fw,V2503_23,,Visualiser,ELMO,MX-P3,X8cccccc73,Spare,385,24/3/2025,Operational,No,,,,0,0
+cmp66oaac00382jo2bil5omlj,V2503_24,,Visualiser,ELMO,MX-P3,X8cccccc74,G4-01,,,Operational,No,,,,0,0
+cmp66oaac004k2jo285arkrlx,V2503_25,,Visualiser,ELMO,MX-P3,X8cccccc75,F6-02,,,Operational,No,,,,0,0
+cmp66oaac003n2jo29ed1qila,V2511_26,,Visualiser,ELMO,MX-P3,X8cccccc76,E5-03,,,Operational,No,,,,0,0
+cmp66oaac002k2jo29qxfchuq,V2511_27,,Visualiser,ELMO,MX-P3,X8cccccc77,G3-05,365,2/11/2025,Operational,No,,,,0,0
+cmp66oaab001n2jo2ps0w8eaw,V2511_28,,Visualiser,ELMO,MX-P3,X8cccccc78,E6-01,365,2/11/2025,Operational,No,,,,0,0
+cmp66oaab000y2jo2yx5kph1x,V2511_29,,Visualiser,ELMO,MX-P3,X8cccccc79,LSP,365,2/11/2025,Operational,No,,,,0,0
+cmp66oaac00262jo2j4rsfxhc,V2511_30,,Visualiser,ELMO,MX-P3,X8cccccc80,F3-02,365,2/11/2025,Operational,No,,,,0,0
+cmp66oaab001p2jo2f12xgi8p,V2708_31,,Visualiser,ELMO,MX-P3,X8cccccc81,Spare,365,12/8/2027,Operational,No,,,,0,0
+cmp66oaac004t2jo2k9n6m1qx,V2708_32,,Visualiser,ELMO,MX-P3,X8cccccc82,E7-02,,,Operational,No,,,,0,0
+cmp66oaac002b2jo227xqsatr,V2708_33,,Visualiser,ELMO,MX-P3,X8cccccc83,G3-02,365,12/8/2027,Operational,No,,,,0,0
+cmp66oaac00352jo2ycx6hjpy,V2708_34,,Visualiser,ELMO,MX-P3,X8cccccc84,F4-03,,,Operational,No,,,,0,0
+cmp66oaac003k2jo277li4qdn,V2708_35,,Visualiser,ELMO,MX-P3,X8cccccc85,E5-02,,,Operational,No,,,,0,0
+cmp66oaac003h2jo2rv7k7oyx,V2802_36,,Visualiser,ELMO,MX-P3,X8cccccc86,E5-01,,,Operational,No,,,,0,0
+cmp66oaab001k2jo2xl8y6nsu,V2802_37,,Visualiser,ELMO,MX-P3,X8cccccc87,F2-03,365,25/2/2028,Operational,No,,,,0,0
+cmp66oaac004b2jo2xa1l83sl,V2802_38,,Visualiser,ELMO,MX-P3,X8cccccc88,E6-02,,,Operational,No,,,,0,0
+cmp66oaac002n2jo2f9pa1mbs,V2802_39,,Visualiser,ELMO,MX-P3,X8cccccc89,G3-06,365,25/2/2028,Operational,No,,,,0,0
+cmp66oaab001e2jo2wzf6piri,V2802_40,,Visualiser,ELMO,MX-P3,X8cccccc53,F2-01,365,25/2/2028,Operational,No,,,,0,0
+cmp66oaac004e2jo20rwa435o,V2807_40,,Visualiser,ELMO,MX-P3,X8cccccc54,E6-03,,,Operational,No,,,,0,0
+cmp66oaac003q2jo22bkn3a6b,V2807_41,,Visualiser,ELMO,MX-P3,X8cccccc55,F5-01,,,Operational,No,,,,0,0
+cmp66oaac002t2jo2kzzcqm6g,V2807_42,,Visualiser,ELMO,MX-P3,X8cccccc56,E4-02,,,Operational,No,,,,0,0
+cmp66oaac003w2jo2jwkv7mrb,V2807_43,,Visualiser,ELMO,MX-P3,X8cccccc57,F5-03,,,Operational,No,,,,0,0
+cmp66oaac004w2jo2wypwmia1,V2807_44,,Visualiser,ELMO,MX-P3,X8cccccc58,E7-03,,,Operational,No,,,,0,0
+cmp66oaaa000c2jo297b9yy50,VA01,,Visualiser,AVerVision,315AF,X8cccccc59,E1-01 Music Room 1,518,,Operational,No,,,,0,0
+cmp66oaab000i2jo2tu0rfrha,VA02,,Visualiser,AVerVision,315AF,X8cccccc60,E1-03 Music Room 2,518,,Operational,No,,,,0,0
 cmpcbuylj00zo2jo2ubeax5nz,VA03,,Visualiser,AVerVision,315AF+,X8cccccc61,Condemned / Pending Disposal,700,1/1/2020,Waiting for Condemnation,No,,,,0,0
+cmp66oaab00112jo2z1kt4zvl,VA04,,Visualiser,AVerVision,315AF+,X8cccccc62,Art Room 1,700,1/1/2020,Operational,No,,,,0,0
+cmp66oaab00142jo2xyjvnm69,VA05,,Visualiser,AVerVision,315AF+,X8cccccc63,Art Room 2,700,1/1/2020,Operational,No,,,,0,0
+cmp66oaab00192jo2bk93e0bp,VA06,,Visualiser,AVerVision,315AF,X8cccccc64,Science Lab 2,499.14,1/1/2020,Operational,No,,,,0,0
+cmp66oaab001v2jo2y5mju4vs,VA10,,Visualiser,AVerVision,315AF,X8cccccc65,E3-02 SBB Room 1,,1/1/2015,Operational,No,,,unknown expiry date since Jeff took over,0,0
+cmp66oaab00202jo2sacci4vq,VA12,,Visualiser,AVerVision,315AF,X8cccccc66,E3-04 Math Room,499,1/1/2015,Operational,No,,,unknown expiry date since Jeff took over,0,0
+cmp66oaac00292jo2aq933p41,VA14,,Visualiser,AVerVision,315AF+,X8cccccc67,G3-01,499,1/1/2015,Operational,No,,Don't know its exact expiry since taken over,,0,0
+cmp66oaac002e2jo2bx6eaq6h,VA15,,Visualiser,AVerVision,315AF,X8cccccc68,G3-03,700,1/1/2015,Operational,No,,unsure the expiry date when took over,,0,0
+cmp66oaac002h2jo2yiuw10bh,VA16,,Visualiser,AVerVision,315AF,X8cccccc69,G3-04,500,1/1/2015,Operational,No,,unknown the expired date when took over,,0,0
+cmp66oaac003t2jo21puji9gb,VA18,,Visualiser,AVerVision,315AF,X8cccccc70,F5-02,,,Operational,No,,,,0,0
+cmp66oaac00452jo2v73yb0qr,VA20,,Visualiser,AVerVision,315AF,X8cccccc71,G5-03,,,Operational,No,,,,0,0
+cmp66oaac004h2jo2bjlsmx7f,VA21,,Visualiser,AVerVision,315AF,X8cccccc72,F6-01,,,Operational,No,,,,0,0
+cmp66oaab000v2jo2xw69pmki,VE01,,Visualiser,V Epson,ELPDC21,X8cccccc73,Learning Lab 1,650,1/1/2022,Operational,No,,,,0,0
+cmp66oaab001x2jo2h54bqy5q,VE02,,Visualiser,V Epson,ELPDC21,X8cccccc74,E3-03 SBB Room 2,650,1/1/2015,Operational,No,,,unknown expiry when Jeff took over,0,0
 cmp66oaac00482jo209xf6hcf,VE03,,Visualiser,V Epson,ELPDC21,X8cccccc75,Condemned / Pending Disposal,650,1/1/2015,Waiting for Condemnation,No,,,,0,0
+cmp66oaaa00092jo29nfu3wct,VN01,,Visualiser,Newline,TC-10P,X8cccccc76,F6-03,,,Operational,No,,,,0,0
+cmp66oaab000f2jo2lq6k7vxh,VN02,,Visualiser,Newline,TC-10P,X8cccccc77,B2-06 Teaching lab,399,21/12/2021,Operational,No,,,,0,0
+cmpc9qdoi00zg2jo2wlglvis5,VN03,,Visualiser,Newline,TC-10P,X8cccccc78,Condemned / Pending Disposal,399,21/12/2018,Waiting for Condemnation,No,,,,0,0
+cmp66oaab000n2jo2e4cknvfr,VN04,,Visualiser,Newline,TC-10P,X8cccccc79,ITLR,399,21/12/2021,Operational,No,,,,0,0
+cmpcbrekh00zn2jo2yeg7itta,VN10,,Visualiser,Newline,TC-10P,X8cccccc80,Condemned / Pending Disposal,399,21/12/2018,Waiting for Condemnation,No,,,,0,0
+cmpcalfg700zj2jo2ecu0cgh7,VN11,,Visualiser,Newline,TC-10P,X8cccccc81,Condemned / Pending Disposal,399,21/12/2018,Waiting for Condemnation,No,,,,0,0
 cmp66oaac004n2jo2on80sdos,VN12,,Visualiser,Newline,TC-10P,X8cccccc82,Condemned / Pending Disposal,399,21/12/2018,Waiting for Condemnation,No,,,,0,0
-cmpcahpl000zi2jo2t6ki9uh0,P06,,Projector,Panasonic,PT-VW530,X8cccccc76,Condemned / Pending Disposal,,10/9/2022,Waiting for Condemnation,No,,,,0,0
+cmp66oaab000p2jo2nk5sxn6i,VN13,,Visualiser,Newline,TC-10P,X8cccccc83,Learning Room 1,399,,Operational,No,,,,0,0
+cmp66oaab001d2jo2x1x9rdo9,VS3002-01,,Projector,Viewsonic,PA700W,X8cccccc84,F2-01,1127,,Operational,No,,"Mounting Services: 530
+Projector: 499
+Dismantle: 98
+4th Warranty: 33
+5th Warranty: 33
+
+Total: Mounting+Projector+Dismantle",,0,0
+cmp66oaab001g2jo229ba0prz,VS3002-02,,Projector,Viewsonic,PA700W,X8cccccc85,F2-02,1127,12/2/2030,Operational,No,,"Mounting Services: 530
+Projector: 499
+Dismantle: 98
+4th Warranty: 33
+5th Warranty: 33
+
+Total: Mounting+Projector+Dismantle",,0,0
+cmp66oaab001j2jo2qtcvs87m,VS3002-03,,Projector,Viewsonic,PA700W,X8cccccc86,F2-03,1127,12/2/2030,Operational,No,,"Mounting Services: 530
+Projector: 499
+Dismantle: 98
+4th Warranty: 33
+5th Warranty: 33
+
+Total: Mounting+Projector+Dismantle",,0,0
+cmp66oaac002p2jo2xjloafyy,VS3002-04,,Projector,Viewsonic,PA700W,X8cccccc87,E4-01,,12-Feb-30,Operational,No,,,,0,0
+cmp66oaac002s2jo2yfeci4sr,VS3002-05,,Projector,Viewsonic,PA700W,X8cccccc88,E4-02,,18-Feb-30,Operational,No,,,,0,0
+cmp66oaab000u2jo2q0qzczv3,VS3002-06,,Projector,Viewsonic,PA700W,X8cccccc89,Learning Lab 1,1127,18/2/2030,Operational,No,,"Mounting Services: 530
+Projector: 499
+Dismantle: 98
+4th Warranty: 33
+5th Warranty: 33
+
+Total: Mounting+Projector+Dismantle",,0,0
+cmp66oaac002m2jo2e9hldfr9,VS3103-07,,Projector,Viewsonic,SP7,X8cccccc60,G3-06,1045,13/3/2031,Operational,No,,"Mounting Services: 548
+Projector: 417
+Dismantle: 80
+4th Warranty: 33
+5th Warranty: 33
+
+Total: Mounting+Projector+Dismantle",,0,0
+cmp66oaaa00052jo2ls2b3nsx,VS3103-08,,Projector,Viewsonic,SP7,X8cccccc61,Conference Room,1045,13/3/2031,Operational,No,,"Mounting Services: 548
+Projector: 417
+Dismantle: 80
+4th Warranty: 33
+5th Warranty: 33
+
+Total: Mounting+Projector+Dismantle",,0,0
+cmp66oaab000h2jo2j0o2thkw,VS3103-09,,Projector,Viewsonic,SP7,X8cccccc62,E1-03 Music Room 2,1045,13/3/2031,Operational,No,,"Mounting Services: 548
+Projector: 417
+Dismantle: 80
+4th Warranty: 33
+5th Warranty: 33
+
+Total: Mounting+Projector+Dismantle",,0,0
