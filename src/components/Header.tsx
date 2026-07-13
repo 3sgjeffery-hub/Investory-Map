@@ -5,6 +5,7 @@ import { signOut } from "next-auth/react";
 interface HeaderProps {
   moveLogCount: number;
   isAdmin: boolean;
+  onReportFault: () => void;
   onReport: () => void;
   onExportCSV: () => void;
   onImport: () => void;
@@ -20,7 +21,7 @@ const APP_TITLE = "Inventory Map";
 const APP_SUBTITLE = "Room-based Asset & Inventory Manager";
 
 export default function Header({
-  moveLogCount, isAdmin, onReport, onExportCSV, onImport, onMoveLog, onSettings, onProfile, userName, schoolName, onResetDemo,
+  moveLogCount, isAdmin, onReportFault, onReport, onExportCSV, onImport, onMoveLog, onSettings, onProfile, userName, schoolName, onResetDemo,
 }: HeaderProps) {
   return (
     <div style={{ background: "#ffffff", borderBottom: "1px solid #e2e8f0", flexShrink: 0 }}>
@@ -78,6 +79,13 @@ export default function Header({
       </div>
       {/* Row 2: Action buttons — scroll horizontally on small screens */}
       <div style={{ display: "flex", gap: 6, padding: "0 16px 8px", overflowX: "auto", scrollbarWidth: "none" }}>
+        <button
+          className="btn"
+          onClick={onReportFault}
+          style={{ color: "#b45309", background: "#fffbeb", borderColor: "#fcd34d", fontWeight: 600, flexShrink: 0 }}
+        >
+          ⚠ Report Fault
+        </button>
         <button className="btn" onClick={onReport} style={{ color: "#4338ca", flexShrink: 0 }}>📊 Report</button>
         <button className="btn" onClick={onExportCSV} style={{ flexShrink: 0 }}>⬇ CSV</button>
         {isAdmin && <button className="btn" onClick={onImport} style={{ flexShrink: 0 }}>⬆ Import</button>}

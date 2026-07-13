@@ -12,6 +12,7 @@ import LoansView from "@/components/LoansView";
 import DetailPanel from "@/components/DetailPanel";
 import MoveModal from "@/components/modals/MoveModal";
 import FaultModal from "@/components/modals/FaultModal";
+import ReportFaultModal from "@/components/modals/ReportFaultModal";
 import LoanOutModal from "@/components/modals/LoanOutModal";
 import ReturnModal from "@/components/modals/ReturnModal";
 import ReportModal from "@/components/modals/ReportModal";
@@ -401,6 +402,7 @@ export default function DashboardPage() {
       <Header
         moveLogCount={(moveLog as unknown[]).length}
         isAdmin={isAdmin}
+        onReportFault={() => setModal({ type: "reportfault" })}
         onReport={() => setModal({ type: "report" })}
         onExportCSV={() => { const a = document.createElement("a"); a.href = "/api/export"; document.body.appendChild(a); a.click(); document.body.removeChild(a); }}
         onImport={() => setModal({ type: "import" })}
@@ -504,6 +506,14 @@ export default function DashboardPage() {
           pendingLocation={modal.pendingLocation as string | null}
           allLocations={Object.values(sections).flat()}
           onMove={handleMove}
+          onClose={() => setModal(null)}
+        />
+      )}
+      {modal?.type === "reportfault" && (
+        <ReportFaultModal
+          items={items as Item[]}
+          typeIcons={typeIcons}
+          onPickItem={(item) => setModal({ type: "fault", item })}
           onClose={() => setModal(null)}
         />
       )}
