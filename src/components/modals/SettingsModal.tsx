@@ -66,6 +66,7 @@ export default function SettingsModal({
   const [editFaultTypes, setEditFaultTypes] = useState<string[]>(faultTypes);
   const [newFaultType, setNewFaultType] = useState("");
   const [faultTypesSaved, setFaultTypesSaved] = useState(false);
+  const [typesSortDir, setTypesSortDir] = useState<"asc" | "desc" | null>(null);
   const typesSavedTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const faultTypesSavedTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
@@ -370,9 +371,32 @@ export default function SettingsModal({
             <div style={{ fontSize: 10, color: "#64748b", marginBottom: 8 }}>
               Manage equipment types and their icons. Click an icon to change it (paste any emoji).
             </div>
-            <div style={{ display: "flex", gap: 5, marginBottom: 6, fontSize: 9, color: "#94a3b8" }}>
+            <div style={{ display: "flex", gap: 5, marginBottom: 6, fontSize: 9, color: "#94a3b8", alignItems: "center" }}>
               <span style={{ width: 36, textAlign: "center" }}>Icon</span>
               <span style={{ flex: 1 }}>Type Name</span>
+              <span
+                onClick={() => {
+                  const dir = typesSortDir === null ? "asc" : typesSortDir === "asc" ? "desc" : null;
+                  setTypesSortDir(dir);
+                  if (dir) {
+                    const sorted = [...editTypes].sort((a, b) =>
+                      dir === "asc" ? a.localeCompare(b) : b.localeCompare(a)
+                    );
+                    setEditTypes(sorted);
+                  }
+                }}
+                style={{
+                  cursor: "pointer",
+                  padding: "1px 5px",
+                  borderRadius: 3,
+                  color: typesSortDir ? "#4f46e5" : "#94a3b8",
+                  background: typesSortDir ? "#ede9fe" : "transparent",
+                  userSelect: "none",
+                  fontSize: 9,
+                }}
+              >
+                Sort {typesSortDir === "asc" ? "A→Z" : typesSortDir === "desc" ? "Z→A" : ""}
+              </span>
             </div>
             <div
               style={{

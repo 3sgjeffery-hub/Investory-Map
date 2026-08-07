@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import { Item } from "@/components/ItemChip";
 import {
   getStatusColor,
@@ -33,6 +33,9 @@ export default function ListView({
   onSelectItem,
   typeIcons,
 }: ListViewProps) {
+  const [sortField, setSortField] = useState<string | null>(null);
+  const [sortDir, setSortDir] = useState<"asc" | "desc">("asc");
+
   const types = ["All", ...new Set(items.map((i) => i.type).filter(Boolean))];
   const filtered = items.filter((i) => {
     const q = search.toLowerCase();
@@ -55,6 +58,34 @@ export default function ListView({
     else statusMatch = i.status === filterStatus;
     return mq && typeMatch && statusMatch;
   });
+
+  const headerToField: Record<string, string> = {
+    Label: "label", Type: "type", Brand: "brand", Model: "model",
+    Serial: "serial", Location: "location", Cost: "cost",
+    Warranty: "warrantyEnd", Status: "status", Loan: "loanedTo",
+  };
+
+  const sorted = sortField
+    ? [...filtered].sort((a, b) => {
+        let av: string | number = "";
+        let bv: string | number = "";
+        if (sortField === "cost") {
+          av = Number(a.cost as string) || 0;
+          bv = Number(b.cost as string) || 0;
+        } else if (sortField === "warrantyEnd") {
+          av = a.warrantyEnd ? new Date(a.warrantyEnd).getTime() : 0;
+          bv = b.warrantyEnd ? new Date(b.warrantyEnd).getTime() : 0;
+        } else if (sortField === "loanedTo") {
+          av = a.isLoaned ? (a.loanedTo as string || "") : "";
+          bv = b.isLoaned ? (b.loanedTo as string || "") : "";
+        } else {
+          av = String((a as Record<string, unknown>)[sortField] ?? "").toLowerCase();
+          bv = String((b as Record<string, unknown>)[sortField] ?? "").toLowerCase();
+        }
+        const cmp = av < bv ? -1 : av > bv ? 1 : 0;
+        return sortDir === "asc" ? cmp : -cmp;
+      })
+    : filtered;
 
   return (
     <div>
@@ -102,25 +133,40 @@ export default function ListView({
           <thead>
             <tr style={{ borderBottom: "1px solid #e2e8f0" }}>
               {["Label", "Type", "Brand", "Model", "Serial", "Location", "Cost", "Warranty", "Status", "Loan"].map(
-                (h) => (
-                  <th
-                    key={h}
-                    style={{
-                      padding: "5px 7px",
-                      textAlign: "left",
-                      color: "#94a3b8",
-                      fontWeight: 400,
-                      whiteSpace: "nowrap",
-                    }}
-                  >
-                    {h}
-                  </th>
-                )
+                (h) => {
+                  const field = headerToField[h];
+                  const active = sortField === field;
+                  return (
+                    <th
+                      key={h}
+                      onClick={() => {
+                        if (active) {
+                          if (sortDir === "asc") setSortDir("desc");
+                          else { setSortField(null); setSortDir("asc"); }
+                        } else {
+                          setSortField(field);
+                          setSortDir("asc");
+                        }
+                      }}
+                      style={{
+                        padding: "5px 7px",
+                        textAlign: "left",
+                        color: active ? "#4f46e5" : "#94a3b8",
+                        fontWeight: active ? 600 : 400,
+                        whiteSpace: "nowrap",
+                        cursor: "pointer",
+                        userSelect: "none",
+                      }}
+                    >
+                      {h} {active ? (sortDir === "asc" ? "▲" : "▼") : ""}
+                    </th>
+                  );
+                }
               )}
             </tr>
           </thead>
           <tbody>
-            {filtered.map((item) => {
+            {sorted.map((item) => {
               const s2 = getStatusColor(item.status);
               const openF = (item.faults || []).filter(
                 (f) => f.status !== "Resolved"

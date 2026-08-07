@@ -24,19 +24,39 @@ interface FaultsViewProps {
   setLightbox: (src: string) => void;
 }
 
+const SEV_ORDER: Record<string, number> = { Critical: 4, High: 3, Medium: 2, Low: 1 };
+const FAULT_STATUS_ORDER: Record<string, number> = { Open: 1, "In Progress": 2, Resolved: 3 };
+
 export default function FaultsView({ items, onSelectItem, onUpdateFault, setLightbox }: FaultsViewProps) {
   const [sf, setSf] = useState("Open");
   const [sv, setSv] = useState("All");
+  const [sortField, setSortField] = useState<string>("date");
+  const [sortDir, setSortDir] = useState<"asc" | "desc">("desc");
 
   const all = items
     .flatMap(i =>
       ((i.faults || []) as unknown as FaultWithItem[]).map(f => ({ ...f, item: i }))
-    )
-    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+    );
 
   const filtered = all.filter(
     f => (sf === "All" || f.status === sf) && (sv === "All" || f.severity === sv)
   );
+
+  const sorted = [...filtered].sort((a, b) => {
+    let cmp = 0;
+    if (sortField === "date") {
+      cmp = new Date(a.date).getTime() - new Date(b.date).getTime();
+    } else if (sortField === "severity") {
+      cmp = (SEV_ORDER[a.severity] || 0) - (SEV_ORDER[b.severity] || 0);
+    } else if (sortField === "status") {
+      cmp = (FAULT_STATUS_ORDER[a.status] || 0) - (FAULT_STATUS_ORDER[b.status] || 0);
+    } else if (sortField === "item") {
+      cmp = a.item.label.localeCompare(b.item.label);
+    } else if (sortField === "faultType") {
+      cmp = a.faultType.localeCompare(b.faultType);
+    }
+    return sortDir === "asc" ? cmp : -cmp;
+  });
 
   return (
     <div>
@@ -61,15 +81,35 @@ export default function FaultsView({ items, onSelectItem, onUpdateFault, setLigh
             <option key={s}>{s}</option>
           ))}
         </select>
+        <select
+          value={`${sortField}-${sortDir}`}
+          onChange={e => {
+            const [f, d] = e.target.value.split("-");
+            setSortField(f);
+            setSortDir(d as "asc" | "desc");
+          }}
+          style={{ width: 150 }}
+        >
+          <option value="date-desc">Date (Newest)</option>
+          <option value="date-asc">Date (Oldest)</option>
+          <option value="severity-desc">Severity (High→Low)</option>
+          <option value="severity-asc">Severity (Low→High)</option>
+          <option value="status-asc">Status (Open→Resolved)</option>
+          <option value="status-desc">Status (Resolved→Open)</option>
+          <option value="item-asc">Item Name (A→Z)</option>
+          <option value="item-desc">Item Name (Z→A)</option>
+          <option value="faultType-asc">Fault Type (A→Z)</option>
+          <option value="faultType-desc">Fault Type (Z→A)</option>
+        </select>
       </div>
-      <div style={{ fontSize: 10, color: "#94a3b8", marginBottom: 6 }}>{filtered.length} faults</div>
-      {filtered.length === 0 && (
+      <div style={{ fontSize: 10, color: "#94a3b8", marginBottom: 6 }}>{sorted.length} faults</div>
+      {sorted.length === 0 && (
         <div style={{ textAlign: "center", color: "#94a3b8", padding: 40, fontSize: 13 }}>
           No faults matching filter
         </div>
       )}
       <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
-        {filtered.map(f => {
+        {sorted.map(f => {
           const sc2 = SEV_COLORS[f.severity] ?? SEV_COLORS.Low;
           return (
             <div
