@@ -26,10 +26,19 @@ export default auth((req) => {
     return NextResponse.redirect(new URL("/dashboard", req.url));
   }
 
+  // USER role hitting /dashboard → bounce to /report (teachers report faults,
+  // they don't get the full admin dashboard)
+  if (
+    pathname.startsWith("/dashboard") &&
+    token.user?.role === "USER"
+  ) {
+    return NextResponse.redirect(new URL("/report", req.url));
+  }
+
   return NextResponse.next();
 });
 
 export const config = {
   // /api/auth (NextAuth) and /api/demo (public demo provisioning) are open.
-  matcher: ["/dashboard/:path*", "/super-admin/:path*", "/api/((?!auth|demo).*)"],
+  matcher: ["/dashboard/:path*", "/super-admin/:path*", "/report/:path*", "/api/((?!auth|demo).*)"],
 };
