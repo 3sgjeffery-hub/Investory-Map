@@ -116,22 +116,6 @@ export default function Home() {
           textAlign: "center",
         }}
       >
-        <div
-          style={{
-            display: "inline-block",
-            padding: "4px 14px",
-            background: "rgba(79,70,229,0.15)",
-            border: "1px solid rgba(99,102,241,0.35)",
-            borderRadius: 20,
-            fontSize: 11,
-            color: "#4f46e5",
-            marginBottom: 28,
-            fontFamily: "'DM Mono', monospace",
-            letterSpacing: "0.08em",
-          }}
-        >
-          v2.0 — Production Platform
-        </div>
 
         <h1
           style={{
