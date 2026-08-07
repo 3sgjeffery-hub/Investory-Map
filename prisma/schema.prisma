@@ -13,21 +13,22 @@ enum Role {
 }
 
 model School {
-  id          String   @id @default(cuid())
-  name        String
-  code        String   @unique
-  address     String?
+  id               String   @id @default(cuid())
+  name             String
+  code             String   @unique
+  address          String?
   customTypes      Json?
   typeIcons        Json?
   customFaultTypes Json?
-  createdAt   DateTime @default(now())
-  updatedAt   DateTime @updatedAt
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
 
-  users    User[]
-  items    Item[]
-  sections Section[]
-  moveLog  MoveLogEntry[]
-  auditLog AuditLogEntry[]
+  users        User[]
+  items        Item[]
+  sections     Section[]
+  moveLog      MoveLogEntry[]
+  auditLog     AuditLogEntry[]
+  faultReports FaultReport[]
 }
 
 model User {
@@ -67,10 +68,11 @@ model Item {
   createdAt    DateTime  @default(now())
   updatedAt    DateTime  @updatedAt
 
-  faults      Fault[]
-  repairs     Repair[]
-  moveLog     MoveLogEntry[]
-  loanHistory LoanEntry[]
+  faults       Fault[]
+  repairs      Repair[]
+  moveLog      MoveLogEntry[]
+  loanHistory  LoanEntry[]
+  faultReports FaultReport[]
 
   @@index([schoolId])
   @@index([schoolId, status])
@@ -184,4 +186,28 @@ model AuditLogEntry {
   createdAt DateTime @default(now())
 
   @@index([schoolId])
+}
+
+model FaultReport {
+  id          String    @id @default(cuid())
+  schoolId    String
+  school      School    @relation(fields: [schoolId], references: [id])
+  itemId      String
+  item        Item      @relation(fields: [itemId], references: [id], onDelete: Cascade)
+  roomName    String
+  faultType   String
+  severity    String    @default("Medium")
+  description String?
+  photos      String[]  @default([])
+  reportedBy  String
+  reporterId  String
+  status      String    @default("Pending")
+  reviewedBy  String?
+  reviewNote  String?
+  reviewedAt  DateTime?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  @@index([schoolId])
+  @@index([status])
 }
