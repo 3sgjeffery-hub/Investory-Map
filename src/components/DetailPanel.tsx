@@ -232,6 +232,14 @@ export default function DetailPanel({
     };
   }, [dragging, onMouseMove]);
 
+  useEffect(() => {
+    const handleKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape" && !editing && !showRepair) onClose();
+    };
+    window.addEventListener("keydown", handleKey);
+    return () => window.removeEventListener("keydown", handleKey);
+  }, [editing, showRepair, onClose]);
+
   const onTouchStart = (e: React.TouchEvent) => {
     if ((e.target as HTMLElement).closest(".no-drag")) return;
     const t = e.touches[0];
