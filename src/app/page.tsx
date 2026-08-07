@@ -163,7 +163,7 @@ export default function Home() {
           Track faults, loans, repairs, and movement — all in one place.
         </p>
 
-        <div style={{ display: "flex", gap: 14, justifyContent: "center", flexWrap: "wrap" }}>
+        <div style={{ display: "flex", gap: 14, justifyContent: "center", flexWrap: "wrap", alignItems: "center" }}>
           <Link
             href="/login"
             style={{
@@ -182,6 +182,7 @@ export default function Home() {
             Go to Dashboard →
           </Link>
           <DemoButton />
+          <DemoButton variant="teacher" />
         </div>
       </section>
 
