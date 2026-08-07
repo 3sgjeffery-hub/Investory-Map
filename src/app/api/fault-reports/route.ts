@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
 import { requireSession, canAccess, isAdmin } from "@/lib/auth-guard";
+import { resolveSchoolId } from "@/lib/tenant";
 import { handleApiError } from "@/lib/api-errors";
 import { FaultReportCreateSchema } from "@/lib/validation/fault-reports";
 
@@ -27,7 +28,7 @@ export async function POST(req: NextRequest) {
 
     const report = await prisma.faultReport.create({
       data: {
-        schoolId: user.schoolId!,
+        schoolId: item.schoolId,
         itemId: input.itemId,
         roomName: input.roomName,
         faultType: input.faultType,
@@ -49,7 +50,10 @@ export async function POST(req: NextRequest) {
 export async function GET(req: NextRequest) {
   try {
     const user = await requireSession();
-    const schoolId = user.schoolId!;
+    const schoolId = resolveSchoolId(
+      user,
+      req.nextUrl.searchParams.get("schoolId") || undefined
+    );
     const statusFilter = req.nextUrl.searchParams.get("status");
 
     const where: Record<string, unknown> = { schoolId };
