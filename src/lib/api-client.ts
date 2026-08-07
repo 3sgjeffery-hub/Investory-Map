@@ -96,6 +96,15 @@ export const api = {
       apiFetch<unknown>(`/api/faults/${id}`, { method: "PUT", body: JSON.stringify(data) }),
   },
 
+  faultReports: {
+    list: () =>
+      apiFetch<unknown[]>("/api/fault-reports"),
+    create: (data: { itemId: string; roomName: string; faultType: string; severity?: string; description?: string; photos?: string[] }) =>
+      apiFetch<unknown>("/api/fault-reports", { method: "POST", body: JSON.stringify(data) }),
+    review: (id: string, data: { action: "approve" | "reject"; severity?: string; faultType?: string; reviewNote?: string }) =>
+      apiFetch<unknown>(`/api/fault-reports/${id}`, { method: "PUT", body: JSON.stringify(data) }),
+  },
+
   loans: {
     list: (schoolId?: string) =>
       apiFetch<unknown[]>("/api/loans", { schoolId }),

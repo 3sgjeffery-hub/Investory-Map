@@ -29,6 +29,7 @@ const DEMO_SCHOOL_CODE = "DEMO";
 const DEMO_SCHOOL_NAME = "Demo School";
 const DEMO_EMAIL = "demo@investorymap.com";
 const DEMO_PASSWORD = "demo";
+const DEMO_TEACHER_EMAIL = "teacher@demo.investorymap.com";
 const CONDEMNED_SECTION = "Condemned / Pending Disposal";
 
 // Valid statuses (from constants.ts)
@@ -262,8 +263,23 @@ async function main() {
   });
   console.log(`User: ${user.email} (${user.role})\n`);
 
+  // 3b. Create/upsert demo teacher user
+  const teacherUser = await prisma.user.upsert({
+    where: { email: DEMO_TEACHER_EMAIL },
+    update: { passwordHash, schoolId: school.id },
+    create: {
+      email: DEMO_TEACHER_EMAIL,
+      passwordHash,
+      name: "Demo Teacher",
+      role: Role.USER,
+      schoolId: school.id,
+    },
+  });
+  console.log(`User: ${teacherUser.email} (${teacherUser.role})\n`);
+
   // 4. Delete existing data for this school (order matters for FK constraints)
   console.log("Clearing existing demo school data...");
+  await prisma.faultReport.deleteMany({ where: { schoolId: school.id } });
   await prisma.auditLogEntry.deleteMany({ where: { schoolId: school.id } });
   await prisma.moveLogEntry.deleteMany({ where: { schoolId: school.id } });
   // Faults, repairs, loanEntries are cascaded from items — but delete explicitly to be safe
@@ -436,13 +452,50 @@ async function main() {
     }
   }
 
+  // 8. Seed sample fault reports for demo
+  console.log("\nSeeding sample fault reports...");
+  const sampleItems = await prisma.item.findMany({
+    where: { schoolId: school.id },
+    take: 2,
+  });
+  if (sampleItems.length >= 2) {
+    await prisma.faultReport.createMany({
+      data: [
+        {
+          schoolId: school.id,
+          itemId: sampleItems[0].id,
+          roomName: sampleItems[0].locationName,
+          faultType: "No display",
+          severity: "High",
+          description: "Projector not turning on when power button is pressed",
+          reportedBy: "Demo Teacher",
+          reporterId: teacherUser.id,
+          status: "Pending",
+        },
+        {
+          schoolId: school.id,
+          itemId: sampleItems[1].id,
+          roomName: sampleItems[1].locationName,
+          faultType: "Loose connection",
+          severity: "Low",
+          description: "HDMI cable loose, intermittent signal",
+          reportedBy: "Demo Teacher",
+          reporterId: teacherUser.id,
+          status: "Pending",
+        },
+      ],
+    });
+    console.log("  2 fault reports seeded.");
+  }
+
   console.log(`\n=== Summary ===`);
   console.log(`  Sections: ${sectionIdByName.size}`);
   console.log(`  Rooms:    ${totalRooms}`);
   console.log(`  Items:    ${itemCount}`);
   if (skipped > 0) console.log(`  Skipped:  ${skipped} (no type)`);
   console.log(`\n--- Demo seed complete ---`);
-  console.log(`Login: ${DEMO_EMAIL} / ${DEMO_PASSWORD}`);
+  console.log(`Login (admin):   ${DEMO_EMAIL} / ${DEMO_PASSWORD}`);
+  console.log(`Login (teacher): ${DEMO_TEACHER_EMAIL} / ${DEMO_PASSWORD}`);
 }
 
 main()

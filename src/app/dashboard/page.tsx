@@ -7,7 +7,7 @@ import StatsBar from "@/components/StatsBar";
 import TabNav from "@/components/TabNav";
 import SectionsView from "@/components/SectionsView";
 import ListView from "@/components/ListView";
-import FaultsView from "@/components/FaultsView";
+import FaultsView, { type FaultReportData } from "@/components/FaultsView";
 import LoansView from "@/components/LoansView";
 import DetailPanel from "@/components/DetailPanel";
 import MoveModal from "@/components/modals/MoveModal";
@@ -49,22 +49,25 @@ export default function DashboardPage() {
   const [itemTypes, setItemTypes] = useState<string[]>(DEFAULT_ITEM_TYPES);
   const [typeIcons, setTypeIcons] = useState<Record<string, string>>({});
   const [faultTypes, setFaultTypes] = useState<string[]>([...FAULT_TYPES]);
+  const [faultReports, setFaultReports] = useState<unknown[]>([]);
 
 
   useEffect(() => {
     async function loadData() {
       try {
-        const [fetchedItems, fetchedSections, fetchedLog, fetchedTypesData, fetchedFaultTypesData] = await Promise.all([
+        const [fetchedItems, fetchedSections, fetchedLog, fetchedTypesData, fetchedFaultTypesData, fetchedReports] = await Promise.all([
           api.items.list(),
           api.sections.list(),
           api.moveLog.list(),
           api.types.list(),
           api.faultTypes.list(),
+          api.faultReports.list(),
         ]);
         setItems(fetchedItems);
         setItemTypes(fetchedTypesData.types);
         setTypeIcons(fetchedTypesData.icons);
         setFaultTypes(fetchedFaultTypesData.types);
+        setFaultReports(fetchedReports);
         // Sections API returns array of { id, name, rooms: [...] } — reshape to Record<name, roomNames[]>
         const sectionMap: Record<string, string[]> = {};
         if (Array.isArray(fetchedSections)) {
@@ -185,6 +188,21 @@ export default function DashboardPage() {
       setItems(fetchedItems);
     } catch (e) {
       console.error("Failed to update fault:", e);
+    }
+  };
+
+  // ── Fault report review handler ─────────────────────────────────────────────
+  const onReviewReport = async (reportId: string, data: { action: "approve" | "reject"; severity?: string; faultType?: string; reviewNote?: string }) => {
+    try {
+      await api.faultReports.review(reportId, data);
+      const [fetchedItems, fetchedReports] = await Promise.all([
+        api.items.list(),
+        api.faultReports.list(),
+      ]);
+      setItems(fetchedItems);
+      setFaultReports(fetchedReports);
+    } catch (e) {
+      console.error("Failed to review report:", e);
     }
   };
 
@@ -358,6 +376,10 @@ export default function DashboardPage() {
   const userRole = (session?.user as { role?: string })?.role ?? "USER";
   const isAdmin = userRole === "SCHOOL_ADMIN" || userRole === "SUPER_ADMIN";
 
+  const pendingReportCount = isAdmin
+    ? (faultReports as Array<{ status: string }>).filter(r => r.status === "Pending").length
+    : 0;
+
   if (loading) {
     return (
       <div style={{ fontFamily: "'DM Mono','Courier New',monospace", background: "#f8fafc", minHeight: "100vh", color: "#1e293b", display: "flex", alignItems: "center", justifyContent: "center" }}>
@@ -420,7 +442,7 @@ export default function DashboardPage() {
 
       <StatsBar stats={stats} onClickStat={handleStatClick} />
 
-      <TabNav tab={tab} setTab={setTab} />
+      <TabNav tab={tab} setTab={setTab} faultReportCount={pendingReportCount} />
 
       <div style={{ flex: 1, overflow: "auto", padding: "14px 16px" }}>
         {tab === "sections" && (
@@ -465,6 +487,10 @@ export default function DashboardPage() {
             onSelectItem={openItem}
             onUpdateFault={onUpdateFault}
             setLightbox={setLightbox}
+            isAdmin={isAdmin}
+            pendingReports={isAdmin ? (faultReports as FaultReportData[]).filter(r => r.status === "Pending") : undefined}
+            onReviewReport={onReviewReport}
+            faultTypes={faultTypes}
           />
         )}
         {tab === "loans" && (

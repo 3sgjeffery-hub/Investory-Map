@@ -204,8 +204,21 @@ export async function POST() {
       },
     });
 
+    await prisma.user.upsert({
+      where: { email: "teacher@demo.investorymap.com" },
+      update: { passwordHash, schoolId },
+      create: {
+        email: "teacher@demo.investorymap.com",
+        passwordHash,
+        name: "Demo Teacher",
+        role: "USER",
+        schoolId,
+      },
+    });
+
     // 2. Delete all existing data for the demo school
     await prisma.$transaction([
+      prisma.faultReport.deleteMany({ where: { schoolId } }),
       prisma.moveLogEntry.deleteMany({ where: { schoolId } }),
       prisma.auditLogEntry.deleteMany({ where: { schoolId } }),
       prisma.item.deleteMany({ where: { schoolId } }),
@@ -355,6 +368,43 @@ export async function POST() {
           remark: item.remark,
           comment: item.comment,
         })),
+      });
+    }
+
+    // 9. Seed sample fault reports for demo
+    const teacherUser = await prisma.user.findFirst({
+      where: { email: "teacher@demo.investorymap.com" },
+    });
+    const sampleItems = await prisma.item.findMany({
+      where: { schoolId },
+      take: 2,
+    });
+    if (teacherUser && sampleItems.length >= 2) {
+      await prisma.faultReport.createMany({
+        data: [
+          {
+            schoolId,
+            itemId: sampleItems[0].id,
+            roomName: sampleItems[0].locationName,
+            faultType: "No display",
+            severity: "High",
+            description: "Projector not turning on when power button is pressed",
+            reportedBy: "Demo Teacher",
+            reporterId: teacherUser.id,
+            status: "Pending",
+          },
+          {
+            schoolId,
+            itemId: sampleItems[1].id,
+            roomName: sampleItems[1].locationName,
+            faultType: "Loose connection",
+            severity: "Low",
+            description: "HDMI cable loose, intermittent signal",
+            reportedBy: "Demo Teacher",
+            reporterId: teacherUser.id,
+            status: "Pending",
+          },
+        ],
       });
     }
 
