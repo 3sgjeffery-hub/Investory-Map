@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from "react";
 import { useSession, signOut } from "next-auth/react";
 import { api } from "@/lib/api-client";
-import { SEV_COLORS, fmtDate } from "@/lib/constants";
+import { SEV_COLORS, fmtDate, getTypeIcon, getStatusColor } from "@/lib/constants";
 
 interface SectionData {
   name: string;
@@ -14,6 +14,8 @@ interface ItemData {
   id: string;
   label: string;
   type: string;
+  brand: string;
+  model: string;
   status: string;
   location: string;
 }
@@ -267,27 +269,38 @@ export default function ReportPage() {
                       />
                     )}
                     <div style={{ maxHeight: 200, overflowY: "auto", border: "1px solid #e2e8f0", borderRadius: 6 }}>
-                      {filteredRoomItems.map(item => (
-                        <div
-                          key={item.id}
-                          onClick={() => setSelectedItem(item)}
-                          style={{
-                            padding: "8px 10px",
-                            cursor: "pointer",
-                            borderBottom: "1px solid #f1f5f9",
-                            background: selectedItem?.id === item.id ? "#ede9fe" : "#ffffff",
-                            display: "flex",
-                            alignItems: "center",
-                            gap: 8,
-                            fontSize: 12,
-                          }}
-                        >
-                          <span style={{ fontSize: 12, color: "#1e293b", fontWeight: selectedItem?.id === item.id ? 600 : 400 }}>
-                            {item.label}
-                          </span>
-                          <span style={{ fontSize: 10, color: "#94a3b8", marginLeft: "auto" }}>{item.status}</span>
-                        </div>
-                      ))}
+                      {filteredRoomItems.map(item => {
+                        const sc = getStatusColor(item.status);
+                        return (
+                          <div
+                            key={item.id}
+                            onClick={() => setSelectedItem(item)}
+                            style={{
+                              padding: "10px 12px",
+                              cursor: "pointer",
+                              borderBottom: "1px solid #f1f5f9",
+                              background: selectedItem?.id === item.id ? "#ede9fe" : "#ffffff",
+                              display: "flex",
+                              alignItems: "center",
+                              gap: 10,
+                              fontSize: 12,
+                            }}
+                          >
+                            <span style={{ fontSize: 18, flexShrink: 0 }}>{getTypeIcon(item.type)}</span>
+                            <div style={{ flex: 1, minWidth: 0 }}>
+                              <div style={{ fontWeight: selectedItem?.id === item.id ? 600 : 500, color: "#1e293b" }}>
+                                {item.label}
+                              </div>
+                              <div style={{ fontSize: 11, color: "#64748b", marginTop: 2 }}>
+                                {item.type}{item.brand || item.model ? ` — ${[item.brand, item.model].filter(Boolean).join(" ")}` : ""}
+                              </div>
+                            </div>
+                            <span className="badge" style={{ background: sc.bg, color: sc.text, flexShrink: 0 }}>
+                              {item.status}
+                            </span>
+                          </div>
+                        );
+                      })}
                     </div>
                   </>
                 )}
