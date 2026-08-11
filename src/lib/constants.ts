@@ -145,6 +145,20 @@ export function fmtDate(d: string | Date | null | undefined): string {
   });
 }
 
+// Converts a stored date (ISO string or Date) into the `yyyy-MM-dd` value that
+// `<input type="date">` requires. Anything else — including the full ISO
+// datetime the API returns — makes the browser render the field blank, which
+// looks to the user like no date was ever set.
+// Uses local date parts so the edit field matches what fmtDate() displays.
+export function toDateInput(d: string | Date | null | undefined): string {
+  if (!d) return "";
+  const date = new Date(d);
+  if (Number.isNaN(date.getTime())) return "";
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const day = String(date.getDate()).padStart(2, "0");
+  return `${date.getFullYear()}-${month}-${day}`;
+}
+
 export function isExpired(d: string | Date | null | undefined): boolean {
   if (!d) return false;
   return new Date(d) < new Date();

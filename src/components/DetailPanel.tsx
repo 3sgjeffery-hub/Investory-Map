@@ -8,6 +8,7 @@ import {
   isExpired,
   expiringSoon,
   fmtDate,
+  toDateInput,
   SEV_COLORS,
 } from "@/lib/constants";
 
@@ -663,7 +664,10 @@ export default function DetailPanel({
                 <button
                   className="btn"
                   onClick={() => {
-                    setEd({ ...item });
+                    setEd({
+                      ...item,
+                      warrantyEnd: toDateInput(item.warrantyEnd),
+                    });
                     setEditing(true);
                   }}
                   style={{ flex: 1, fontSize: 11 }}
