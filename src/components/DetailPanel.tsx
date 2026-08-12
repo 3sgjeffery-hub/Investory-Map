@@ -516,7 +516,7 @@ export default function DetailPanel({
                   onChange={e => setEd(d => ({ ...d, type: e.target.value }))}
                 >
                   {itemTypes.map(t => (
-                    <option key={t}>{t}</option>
+                    <option key={t} value={t}>{t}</option>
                   ))}
                 </select>
               </div>
@@ -664,10 +664,15 @@ export default function DetailPanel({
                 <button
                   className="btn"
                   onClick={() => {
-                    setEd({
+                    const copy = {
                       ...item,
                       warrantyEnd: toDateInput(item.warrantyEnd),
-                    });
+                    };
+                    if (typeof copy.type === "string" && !itemTypes.includes(copy.type)) {
+                      const match = itemTypes.find(t => (copy.type as string).endsWith(t));
+                      if (match) copy.type = match;
+                    }
+                    setEd(copy);
                     setEditing(true);
                   }}
                   style={{ flex: 1, fontSize: 11 }}

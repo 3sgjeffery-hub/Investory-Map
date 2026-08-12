@@ -76,7 +76,7 @@ export default function AddItemModal({ location, onAdd, onClose, itemTypes, type
             <label style={{ fontSize: 10, color: "#64748b", display: "block", marginBottom: 2 }}>Type</label>
             <select value={form.type} onChange={(e) => setForm((f) => ({ ...f, type: e.target.value }))}>
               {(itemTypes || Object.keys(TYPE_ICON).filter((k) => k !== "default")).map((t) => (
-                  <option key={t}>{typeIcons?.[t] || getTypeIcon(t)} {t}</option>
+                  <option key={t} value={t}>{typeIcons?.[t] || getTypeIcon(t)} {t}</option>
                 ))}
             </select>
           </div>
