@@ -497,6 +497,7 @@ export default function DashboardPage() {
           <LoansView
             items={items as Item[]}
             onSelectItem={openItem}
+            onSelectLoanedItem={item => { setSelectedItem(item as unknown as Item); setDetailTab("history"); }}
             onReturn={item => setModal({ type: "return", item: item as unknown })}
             onLoanOut={item => setModal({ type: "loanout", item: item as unknown })}
           />
@@ -516,7 +517,7 @@ export default function DashboardPage() {
             onReportFault={() => setModal({ type: "fault", item: selectedItem })}
             onUpdateFault={handleUpdateFaultInPanel}
             onMove={() => setModal({ type: "move", item: selectedItem, pendingLocation: null })}
-            onLoanOut={() => setModal({ type: "loanout", item: selectedItem })}
+            onLoanOut={() => { setModal({ type: "loanout", item: selectedItem }); setSelectedItem(null); }}
             onReturn={() => setModal({ type: "return", item: selectedItem })}
             setLightbox={setLightbox}
             allLocations={Object.values(sections).flat()}
@@ -554,6 +555,13 @@ export default function DashboardPage() {
       {modal?.type === "loanout" && (
         <LoanOutModal
           item={(modal.item as Item) ?? ({} as Item)}
+          borrowerNames={[...new Set(
+            (items as Item[])
+              .flatMap(i => (i.loanHistory as Array<{ borrowerName: string }> | undefined) || [])
+              .map(l => l.borrowerName)
+              .concat((items as Item[]).filter(i => i.loanedTo).map(i => i.loanedTo as string))
+              .filter(Boolean)
+          )].sort()}
           onSubmit={handleLoanOut}
           onClose={() => setModal(null)}
         />

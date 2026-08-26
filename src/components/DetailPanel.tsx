@@ -50,10 +50,15 @@ interface MoveEntry {
 interface LoanEntry {
   id: string;
   borrowerName: string;
+  borrowerId?: string | null;
+  issuedBy?: string | null;
+  notes?: string | null;
   dateOut: string;
   dateIn?: string;
   expectedReturn?: string;
   signature?: string | null;
+  condition?: string | null;
+  receivedBy?: string | null;
   status: string;
 }
 
@@ -1003,8 +1008,31 @@ export default function DetailPanel({
                     Expected: {fmtDate(l.expectedReturn)}
                   </div>
                 )}
+                {l.issuedBy && (
+                  <div style={{ fontSize: 10, color: "#64748b" }}>Issued by: {l.issuedBy}</div>
+                )}
+                {l.borrowerId && (
+                  <div style={{ fontSize: 10, color: "#64748b" }}>ID/Contact: {l.borrowerId}</div>
+                )}
+                {l.condition && l.status === "Returned" && (
+                  <div style={{ fontSize: 10, color: "#64748b" }}>Condition: {l.condition}</div>
+                )}
+                {l.receivedBy && (
+                  <div style={{ fontSize: 10, color: "#64748b" }}>Received by: {l.receivedBy}</div>
+                )}
+                {l.notes && (
+                  <div style={{ fontSize: 10, color: "#64748b", marginTop: 2 }}>Notes: {l.notes}</div>
+                )}
                 {l.signature && (
-                  <div style={{ fontSize: 10, color: "#16a34a", marginTop: 2 }}>✓ Signed</div>
+                  <div style={{ marginTop: 4 }}>
+                    <div style={{ fontSize: 10, color: "#16a34a", marginBottom: 2 }}>✓ Signed</div>
+                    <img
+                      src={l.signature}
+                      alt="Signature"
+                      onClick={() => setLightbox(l.signature!)}
+                      style={{ width: "100%", maxHeight: 60, objectFit: "contain", border: "1px solid #e2e8f0", borderRadius: 4, cursor: "pointer", background: "#f8fafc" }}
+                    />
+                  </div>
                 )}
               </div>
             ))}

@@ -14,11 +14,12 @@ interface LoanOutForm {
 
 interface LoanOutModalProps {
   item: Item;
+  borrowerNames?: string[];
   onSubmit: (data: LoanOutForm & { signature: string | null }) => void;
   onClose: () => void;
 }
 
-export default function LoanOutModal({ item, onSubmit, onClose }: LoanOutModalProps) {
+export default function LoanOutModal({ item, borrowerNames = [], onSubmit, onClose }: LoanOutModalProps) {
   const [form, setForm] = useState<LoanOutForm>({
     borrowerName: "",
     borrowerId: "",
@@ -129,10 +130,16 @@ export default function LoanOutModal({ item, onSubmit, onClose }: LoanOutModalPr
           <div>
             <label style={{ fontSize: 10, color: "#64748b", display: "block", marginBottom: 3 }}>Borrower Name *</label>
             <input
-              placeholder="Name"
+              list="borrower-names"
+              placeholder="Select or type a name"
               value={form.borrowerName}
               onChange={(e) => setForm((f) => ({ ...f, borrowerName: e.target.value }))}
             />
+            {borrowerNames.length > 0 && (
+              <datalist id="borrower-names">
+                {borrowerNames.map(n => <option key={n} value={n} />)}
+              </datalist>
+            )}
           </div>
           <div>
             <label style={{ fontSize: 10, color: "#64748b", display: "block", marginBottom: 3 }}>Borrower ID / Contact</label>

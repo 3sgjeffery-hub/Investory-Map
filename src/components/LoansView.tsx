@@ -7,11 +7,12 @@ import type { Item } from "@/components/ItemChip";
 interface LoansViewProps {
   items: Item[];
   onSelectItem: (item: Item) => void;
+  onSelectLoanedItem?: (item: Item) => void;
   onReturn: (item: Item) => void;
   onLoanOut: (item: Item) => void;
 }
 
-export default function LoansView({ items, onSelectItem, onReturn, onLoanOut }: LoansViewProps) {
+export default function LoansView({ items, onSelectItem, onSelectLoanedItem, onReturn, onLoanOut }: LoansViewProps) {
   const [showAll, setShowAll] = useState(false);
 
   const loaned = items.filter(i => i.isLoaned);
@@ -69,7 +70,7 @@ export default function LoansView({ items, onSelectItem, onReturn, onLoanOut }: 
                 {pitems.map(item => (
                   <div key={item.id} style={{ background: "#f8fafc", border: "1px solid #e2e8f0", borderRadius: 4, padding: "3px 7px", display: "flex", alignItems: "center", gap: 5 }}>
                     <span style={{ fontSize: 10, flexShrink: 0 }}>{getTypeIcon(item.type)}</span>
-                    <span style={{ fontSize: 10, color: "#1e293b", flex: 1, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap", cursor: "pointer" }} onClick={() => onSelectItem(item)}>{item.label}</span>
+                    <span style={{ fontSize: 10, color: "#1e293b", flex: 1, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap", cursor: "pointer" }} onClick={() => (onSelectLoanedItem || onSelectItem)(item)}>{item.label}</span>
                     <button onClick={() => onReturn(item)} style={{ background: "none", border: "none", cursor: "pointer", color: "#16a34a", fontSize: 9, flexShrink: 0 }} title="Return">↩</button>
                   </div>
                 ))}
