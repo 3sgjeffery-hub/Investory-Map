@@ -371,21 +371,170 @@ export async function POST() {
       });
     }
 
-    // 9. Seed sample fault reports for demo
+    // 9. Seed demo activity data (faults, repairs, loans, move log, fault reports)
     const teacherUser = await prisma.user.findFirst({
       where: { email: "teacher@demo.investorymap.com" },
     });
-    const sampleItems = await prisma.item.findMany({
+
+    const allItems = await prisma.item.findMany({
       where: { schoolId },
-      take: 2,
+      orderBy: { label: "asc" },
     });
-    if (teacherUser && sampleItems.length >= 2) {
+
+    const byType = (t: string) => allItems.filter(i => i.type === t);
+    const projectors = byType("Projector");
+    const mics = byType("MIC");
+    const ipads = [...byType("iPad"), ...byType("IPAD"), ...byType("Old iPAD"), ...byType("Owned iPAD")];
+    const visualisers = byType("Visualiser");
+    const portableHDs = byType("Portable HD");
+    const dslrs = byType("DSLR");
+
+    const now = new Date();
+    const daysAgo = (d: number) => new Date(now.getTime() - d * 86400000);
+
+    // --- Faults (open + resolved) ---
+    const faultTargets = [
+      { items: projectors, idx: 0, type: "No display", sev: "High", desc: "Projector not turning on — no LED indicator when power button pressed", status: "Open", resolved: false },
+      { items: projectors, idx: 2, type: "Flickering image", sev: "Medium", desc: "Image flickers every few seconds, lamp may need replacement", status: "Open", resolved: false },
+      { items: visualisers, idx: 0, type: "Blurry image", sev: "Low", desc: "Auto-focus not working, image stays blurry on screen", status: "Open", resolved: false },
+      { items: mics, idx: 0, type: "No audio", sev: "Medium", desc: "Wireless mic not pairing with receiver, batteries replaced", status: "Open", resolved: false },
+      { items: projectors, idx: 4, type: "Overheating", sev: "Critical", desc: "Projector shuts down after 10 mins with overheating warning", status: "Resolved", resolved: true },
+      { items: visualisers, idx: 1, type: "Loose connection", sev: "Low", desc: "USB cable connection intermittent — resolved by replacing cable", status: "Resolved", resolved: true },
+    ];
+
+    for (const ft of faultTargets) {
+      const item = ft.items[ft.idx];
+      if (!item) continue;
+      await prisma.fault.create({
+        data: {
+          itemId: item.id,
+          faultType: ft.type,
+          severity: ft.sev,
+          description: ft.desc,
+          status: ft.status,
+          reportedBy: "Demo Admin",
+          ...(ft.resolved ? { resolvedBy: "Demo Admin", resolutionNote: "Issue resolved" } : {}),
+          createdAt: daysAgo(ft.resolved ? 30 : 3),
+        },
+      });
+      if (!ft.resolved && (ft.sev === "High" || ft.sev === "Critical")) {
+        await prisma.item.update({ where: { id: item.id }, data: { status: "Faulty" } });
+      } else if (!ft.resolved && ft.sev === "Medium") {
+        await prisma.item.update({ where: { id: item.id }, data: { status: "Under Maintenance" } });
+      }
+    }
+
+    // --- Repairs ---
+    const repairTargets = [
+      { items: projectors, idx: 4, desc: "Replaced lamp module and cleaned dust filter", tech: "AV Vendor (MediaTech)", cost: 350, daysAgoStart: 28, daysAgoEnd: 25, notes: "Lamp hours were at 4500 — recommend replacing at 4000 next time" },
+      { items: visualisers, idx: 1, desc: "Replaced USB cable and tested connection", tech: "In-house", cost: 15, daysAgoStart: 30, daysAgoEnd: 30, notes: null },
+      { items: projectors, idx: 1, desc: "Firmware update and HDMI port resolder", tech: "AV Vendor (MediaTech)", cost: 180, daysAgoStart: 60, daysAgoEnd: 55, notes: "Warranty claim submitted" },
+    ];
+
+    for (const rt of repairTargets) {
+      const item = rt.items[rt.idx];
+      if (!item) continue;
+      await prisma.repair.create({
+        data: {
+          itemId: item.id,
+          description: rt.desc,
+          technician: rt.tech,
+          cost: rt.cost,
+          startDate: daysAgo(rt.daysAgoStart),
+          completeDate: daysAgo(rt.daysAgoEnd),
+          notes: rt.notes,
+        },
+      });
+    }
+
+    // --- Loans (active + returned) ---
+    const loanData = [
+      { items: portableHDs, idx: 0, borrower: "Mrs Tan (P3 Form Teacher)", bid: "T2024-018", issuer: "Demo Admin", active: true, daysOut: 5, expectedDays: 14, notes: "For class project presentations" },
+      { items: dslrs, idx: 0, borrower: "Mr Lim (PE Dept)", bid: "T2024-032", issuer: "Demo Admin", active: true, daysOut: 2, expectedDays: 7, notes: "Sports day photo coverage" },
+      { items: ipads, idx: 0, borrower: "Ms Wong (English Dept)", bid: "T2024-045", issuer: "Demo Admin", active: true, daysOut: 1, expectedDays: 5, notes: "Reading comprehension app activity" },
+      { items: mics, idx: 1, borrower: "Mrs Tan (P3 Form Teacher)", bid: "T2024-018", issuer: "Demo Admin", active: false, daysOut: 14, returnedDaysAgo: 7, condition: "Good", notes: "Used for class presentation day" },
+      { items: portableHDs, idx: 1, borrower: "Mr Lim (PE Dept)", bid: "T2024-032", issuer: "Demo Admin", active: false, daysOut: 10, returnedDaysAgo: 20, condition: "Good", notes: "CCA day video editing" },
+      { items: ipads, idx: 2, borrower: "Mdm Siti (Mother Tongue Dept)", bid: "T2024-051", issuer: "Demo Admin", active: false, daysOut: 3, returnedDaysAgo: 12, condition: "Fair", notes: "Minor scratch on screen noted on return" },
+    ];
+
+    for (const ld of loanData) {
+      const item = ld.items[ld.idx];
+      if (!item) continue;
+
+      if (ld.active) {
+        const dateOut = daysAgo(ld.daysOut);
+        const expectedReturn = daysAgo(-((ld.expectedDays ?? 14) - ld.daysOut));
+        await prisma.loanEntry.create({
+          data: {
+            itemId: item.id,
+            borrowerName: ld.borrower,
+            borrowerId: ld.bid,
+            issuedBy: ld.issuer,
+            notes: ld.notes,
+            dateOut,
+            expectedReturn,
+            status: "Active",
+          },
+        });
+        await prisma.item.update({
+          where: { id: item.id },
+          data: { isLoaned: true, loanedTo: ld.borrower, locationName: ld.borrower },
+        });
+      } else {
+        const dateOut = daysAgo((ld.returnedDaysAgo ?? 0) + ld.daysOut);
+        const dateIn = daysAgo(ld.returnedDaysAgo ?? 0);
+        await prisma.loanEntry.create({
+          data: {
+            itemId: item.id,
+            borrowerName: ld.borrower,
+            borrowerId: ld.bid,
+            issuedBy: ld.issuer,
+            notes: ld.notes,
+            dateOut,
+            dateIn,
+            condition: (ld as { condition?: string }).condition ?? "Good",
+            receivedBy: "Demo Admin",
+            returnLocation: item.locationName,
+            status: "Returned",
+          },
+        });
+      }
+    }
+
+    // --- Move log entries ---
+    const moveData = [
+      { items: projectors, idx: 3, from: "Spare", to: "F3-01", reason: "Replacement for faulty unit", daysAgo: 15 },
+      { items: projectors, idx: 4, from: "G3-02", to: "Spare", reason: "Sent for repair — overheating issue", daysAgo: 28 },
+      { items: visualisers, idx: 2, from: "E4-01", to: "F4-02", reason: "Classroom swap", daysAgo: 45 },
+      { items: ipads, idx: 5, from: "Cart E2-01", to: "Cart E3-04", reason: "Redistributed across carts", daysAgo: 10 },
+      { items: mics, idx: 2, from: "HALL", to: "Conference Room", reason: "Event setup", daysAgo: 7 },
+    ];
+
+    for (const mv of moveData) {
+      const item = mv.items[mv.idx];
+      if (!item) continue;
+      await prisma.moveLogEntry.create({
+        data: {
+          schoolId,
+          itemId: item.id,
+          itemLabel: item.label,
+          fromLoc: mv.from,
+          toLoc: mv.to,
+          reason: mv.reason,
+          movedBy: "Demo Admin",
+          createdAt: daysAgo(mv.daysAgo),
+        },
+      });
+    }
+
+    // --- Fault reports (teacher-submitted) ---
+    if (teacherUser && projectors.length >= 2) {
       await prisma.faultReport.createMany({
         data: [
           {
             schoolId,
-            itemId: sampleItems[0].id,
-            roomName: sampleItems[0].locationName,
+            itemId: projectors[0].id,
+            roomName: projectors[0].locationName,
             faultType: "No display",
             severity: "High",
             description: "Projector not turning on when power button is pressed",
@@ -395,11 +544,11 @@ export async function POST() {
           },
           {
             schoolId,
-            itemId: sampleItems[1].id,
-            roomName: sampleItems[1].locationName,
+            itemId: projectors[1].id,
+            roomName: projectors[1].locationName,
             faultType: "Loose connection",
             severity: "Low",
-            description: "HDMI cable loose, intermittent signal",
+            description: "HDMI cable loose, intermittent signal loss during lesson",
             reportedBy: "Demo Teacher",
             reporterId: teacherUser.id,
             status: "Pending",
