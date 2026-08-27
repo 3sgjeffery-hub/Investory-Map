@@ -131,7 +131,8 @@ describe("GET /api/export", () => {
     expect(res.headers.get("content-type")).toContain("text/csv");
 
     const text = await res.text();
-    expect(text).toContain("ID");
+    expect(text).toContain("Label");
+    expect(text).not.toContain('"ID"');
     expect(text).toContain("Projector A");
   });
 });

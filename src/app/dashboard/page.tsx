@@ -244,7 +244,12 @@ export default function DashboardPage() {
   const handleUpdateFaultInPanel = async (faultId: string, patch: Record<string, unknown>) => {
     try {
       await api.faults.update(faultId, patch);
-      await refreshItems();
+      const fetchedItems = await api.items.list();
+      setItems(fetchedItems);
+      if (selectedItem) {
+        const updated = (fetchedItems as Item[]).find(i => i.id === (selectedItem as Item).id);
+        if (updated) setSelectedItem(updated);
+      }
     } catch (e) { console.error(e); }
   };
 
@@ -279,7 +284,7 @@ export default function DashboardPage() {
     } catch (e) { console.error(e); }
   };
 
-  const handleLoanOut = async (data: { borrowerName: string; borrowerId: string; issuedBy: string; expectedReturn: string; notes: string; signature: string | null }) => {
+  const handleLoanOut = async (data: { borrowerName: string; borrowerId: string; issuedBy: string; expectedReturn: string; notes: string; signature: string | null; issuerSignature: string | null }) => {
     const item = modal?.item as Item | undefined;
     if (!item) return;
     try {
@@ -514,7 +519,7 @@ export default function DashboardPage() {
             onUpdate={handleUpdateItem}
             onDelete={handleDeleteItem}
             onAddRepair={handleAddRepair}
-            onReportFault={() => setModal({ type: "fault", item: selectedItem })}
+            onReportFault={() => { setModal({ type: "fault", item: selectedItem }); setSelectedItem(null); }}
             onUpdateFault={handleUpdateFaultInPanel}
             onMove={() => setModal({ type: "move", item: selectedItem, pendingLocation: null })}
             onLoanOut={() => { setModal({ type: "loanout", item: selectedItem }); setSelectedItem(null); }}

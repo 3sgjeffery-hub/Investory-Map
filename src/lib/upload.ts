@@ -2,6 +2,7 @@ import { S3Client, PutObjectCommand, DeleteObjectCommand } from "@aws-sdk/client
 import { v4 as uuidv4 } from "uuid";
 
 const S3_ENDPOINT = (process.env.S3_ENDPOINT ?? "").replace(/\/$/, "");
+const S3_PUBLIC_URL = (process.env.S3_PUBLIC_URL ?? "").replace(/\/$/, "");
 const BUCKET = process.env.S3_BUCKET ?? "investory-uploads";
 
 const s3 = new S3Client({
@@ -30,6 +31,7 @@ export async function uploadFile(
     })
   );
 
+  if (S3_PUBLIC_URL) return `${S3_PUBLIC_URL}/${key}`;
   return `${S3_ENDPOINT}/${BUCKET}/${key}`;
 }
 

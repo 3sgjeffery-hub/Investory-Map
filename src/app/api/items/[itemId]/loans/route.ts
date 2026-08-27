@@ -54,6 +54,7 @@ export async function POST(req: NextRequest, { params }: Params) {
               : null,
             notes: input.notes ?? null,
             signature: input.signature ?? null,
+            issuerSignature: input.issuerSignature ?? null,
             status: "Active",
           },
         });

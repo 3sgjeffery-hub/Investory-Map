@@ -22,13 +22,13 @@ export async function GET(req: NextRequest) {
     });
 
     const headers = [
-      "ID", "Label", "AssetCode", "Type", "Brand", "Model", "Serial",
+      "Label", "AssetCode", "Type", "Brand", "Model", "Serial",
       "Location", "Cost", "WarrantyEnd", "Status", "Loanable", "LoanedTo",
       "Remark", "Comment", "OpenFaults", "Repairs",
     ];
 
     const rows = items.map((i) => [
-      i.id, i.label, i.assetCode ?? "", i.type, i.brand ?? "", i.model ?? "",
+      i.label, i.assetCode ?? "", i.type, i.brand ?? "", i.model ?? "",
       i.serial ?? "", i.locationName, i.cost?.toString() ?? "",
       i.warrantyEnd?.toISOString().slice(0, 10) ?? "", i.status,
       i.loanable ? "Yes" : "No", i.loanedTo ?? "", i.remark ?? "",

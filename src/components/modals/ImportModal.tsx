@@ -99,7 +99,14 @@ export default function ImportModal({ onSuccess, onClose }: ImportModalProps) {
           Bulk Import CSV
         </div>
         <div style={{ fontSize: 10, color: "#64748b", marginBottom: 10 }}>
-          Headers: label, assetCode, type, brand, model, serial, location, cost, warrantyEnd, status, loanable, remark, comment
+          Headers: Label, AssetCode, Type, Brand, Model, Serial, Location, Cost, WarrantyEnd, Status, Loanable, Remark, Comment
+          <br />
+          <a
+            href="/api/export/template"
+            style={{ color: "#4f46e5", textDecoration: "underline", cursor: "pointer" }}
+          >
+            Download blank template with sample row
+          </a>
         </div>
         <input type="file" accept=".csv" onChange={handle} style={{ marginBottom: 10 }} />
         {err && <div style={{ color: "#dc2626", fontSize: 11, marginBottom: 8 }}>{err}</div>}

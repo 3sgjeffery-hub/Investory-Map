@@ -147,6 +147,7 @@ model LoanEntry {
   condition      String?
   notes          String?
   signature      String?
+  issuerSignature String?
   dateOut        DateTime  @default(now())
   dateIn         DateTime?
   receivedBy     String?

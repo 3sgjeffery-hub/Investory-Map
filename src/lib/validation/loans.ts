@@ -17,6 +17,7 @@ export const LoanOutSchema = z.object({
   expectedReturn: z.string().optional().nullable(),
   notes: z.string().optional().nullable(),
   signature: z.string().optional().nullable(),
+  issuerSignature: z.string().optional().nullable(),
 });
 
 export const LoanReturnSchema = z.object({

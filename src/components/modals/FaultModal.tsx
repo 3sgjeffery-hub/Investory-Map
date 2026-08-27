@@ -188,6 +188,9 @@ export default function FaultModal({ item, faultTypes, onSubmit, onClose }: Faul
                 </div>
               </div>
             )}
+            <div style={{ fontSize: 9, color: "#94a3b8", marginTop: 4 }}>
+              Uploaded images are retained for up to 5 years.
+            </div>
           </div>
           <div style={{ display: "flex", gap: 8 }}>
             <button className="btn btn-primary" style={{ flex: 1 }} onClick={() => onSubmit(form)}>

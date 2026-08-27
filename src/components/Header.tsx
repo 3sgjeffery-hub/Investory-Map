@@ -1,5 +1,6 @@
 "use client";
 
+import { useState, useRef, useEffect } from "react";
 import { signOut } from "next-auth/react";
 
 interface HeaderProps {
@@ -19,6 +20,55 @@ interface HeaderProps {
 
 const APP_TITLE = "Inventory Map";
 const APP_SUBTITLE = "Room-based Asset & Inventory Manager";
+
+function CsvDropdown({ onExportCSV }: { onExportCSV: () => void }) {
+  const [open, setOpen] = useState(false);
+  const ref = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (!open) return;
+    const handler = (e: MouseEvent) => {
+      if (ref.current && !ref.current.contains(e.target as Node)) setOpen(false);
+    };
+    document.addEventListener("mousedown", handler);
+    return () => document.removeEventListener("mousedown", handler);
+  }, [open]);
+
+  return (
+    <div ref={ref} style={{ position: "relative", flexShrink: 0 }}>
+      <button className="btn" onClick={() => setOpen(!open)}>⬇ CSV ▾</button>
+      {open && (
+        <div style={{
+          position: "absolute", top: "100%", left: 0, marginTop: 4,
+          background: "#fff", border: "1px solid #e2e8f0", borderRadius: 6,
+          boxShadow: "0 4px 12px rgba(0,0,0,.1)", zIndex: 300, minWidth: 180,
+          overflow: "hidden",
+        }}>
+          <button
+            onClick={() => { onExportCSV(); setOpen(false); }}
+            style={{ display: "block", width: "100%", textAlign: "left", padding: "8px 12px", border: "none", background: "none", cursor: "pointer", fontSize: 11, color: "#1e293b" }}
+          >
+            <strong>Export Inventory</strong>
+            <div style={{ fontSize: 9, color: "#64748b" }}>Download current inventory as CSV</div>
+          </button>
+          <div style={{ borderTop: "1px solid #e2e8f0" }} />
+          <button
+            onClick={() => {
+              const a = document.createElement("a");
+              a.href = "/api/export/template";
+              a.click();
+              setOpen(false);
+            }}
+            style={{ display: "block", width: "100%", textAlign: "left", padding: "8px 12px", border: "none", background: "none", cursor: "pointer", fontSize: 11, color: "#1e293b" }}
+          >
+            <strong>Download Template</strong>
+            <div style={{ fontSize: 9, color: "#64748b" }}>Blank CSV with sample row to get started</div>
+          </button>
+        </div>
+      )}
+    </div>
+  );
+}
 
 export default function Header({
   moveLogCount, isAdmin, onReportFault, onReport, onExportCSV, onImport, onMoveLog, onSettings, onProfile, userName, schoolName, onResetDemo,
@@ -87,7 +137,7 @@ export default function Header({
           ⚠ Report Fault
         </button>
         <button className="btn" onClick={onReport} style={{ color: "#4338ca", flexShrink: 0 }}>📊 Report</button>
-        <button className="btn" onClick={onExportCSV} style={{ flexShrink: 0 }}>⬇ CSV</button>
+        <CsvDropdown onExportCSV={onExportCSV} />
         {isAdmin && <button className="btn" onClick={onImport} style={{ flexShrink: 0 }}>⬆ Import</button>}
         <button className="btn" onClick={onMoveLog} style={{ flexShrink: 0 }}>📋 Log ({moveLogCount})</button>
         {isAdmin && <button className="btn" onClick={onSettings} style={{ flexShrink: 0 }}>⚙ Sections</button>}

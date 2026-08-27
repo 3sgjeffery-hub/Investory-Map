@@ -57,6 +57,7 @@ interface LoanEntry {
   dateIn?: string;
   expectedReturn?: string;
   signature?: string | null;
+  issuerSignature?: string | null;
   condition?: string | null;
   receivedBy?: string | null;
   status: string;
@@ -1025,14 +1026,28 @@ export default function DetailPanel({
                 )}
                 {l.signature && (
                   <div style={{ marginTop: 4 }}>
-                    <div style={{ fontSize: 10, color: "#16a34a", marginBottom: 2 }}>✓ Signed</div>
+                    <div style={{ fontSize: 10, color: "#16a34a", marginBottom: 2 }}>Borrower Signature</div>
                     <img
                       src={l.signature}
-                      alt="Signature"
+                      alt="Borrower Signature"
                       onClick={() => setLightbox(l.signature!)}
                       style={{ width: "100%", maxHeight: 60, objectFit: "contain", border: "1px solid #e2e8f0", borderRadius: 4, cursor: "pointer", background: "#f8fafc" }}
                     />
                   </div>
+                )}
+                {l.issuerSignature && (
+                  <div style={{ marginTop: 4 }}>
+                    <div style={{ fontSize: 10, color: "#4f46e5", marginBottom: 2 }}>Authorised Personnel Signature</div>
+                    <img
+                      src={l.issuerSignature}
+                      alt="Authorised Personnel Signature"
+                      onClick={() => setLightbox(l.issuerSignature!)}
+                      style={{ width: "100%", maxHeight: 60, objectFit: "contain", border: "1px solid #e2e8f0", borderRadius: 4, cursor: "pointer", background: "#f8fafc" }}
+                    />
+                  </div>
+                )}
+                {(l.signature || l.issuerSignature) && (
+                  <div style={{ fontSize: 9, color: "#94a3b8", marginTop: 2 }}>Signatures retained for up to 5 years</div>
                 )}
               </div>
             ))}
