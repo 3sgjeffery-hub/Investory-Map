@@ -24,6 +24,8 @@ const APP_SUBTITLE = "Room-based Asset & Inventory Manager";
 function CsvDropdown({ onExportCSV }: { onExportCSV: () => void }) {
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
+  const btnRef = useRef<HTMLButtonElement>(null);
+  const [pos, setPos] = useState({ top: 0, left: 0 });
 
   useEffect(() => {
     if (!open) return;
@@ -34,12 +36,20 @@ function CsvDropdown({ onExportCSV }: { onExportCSV: () => void }) {
     return () => document.removeEventListener("mousedown", handler);
   }, [open]);
 
+  const toggle = () => {
+    if (!open && btnRef.current) {
+      const r = btnRef.current.getBoundingClientRect();
+      setPos({ top: r.bottom + 4, left: r.left });
+    }
+    setOpen(!open);
+  };
+
   return (
-    <div ref={ref} style={{ position: "relative", flexShrink: 0 }}>
-      <button className="btn" onClick={() => setOpen(!open)}>⬇ CSV ▾</button>
+    <div ref={ref} style={{ flexShrink: 0 }}>
+      <button ref={btnRef} className="btn" onClick={toggle}>⬇ CSV ▾</button>
       {open && (
         <div style={{
-          position: "absolute", top: "100%", left: 0, marginTop: 4,
+          position: "fixed", top: pos.top, left: pos.left,
           background: "#fff", border: "1px solid #e2e8f0", borderRadius: 6,
           boxShadow: "0 4px 12px rgba(0,0,0,.1)", zIndex: 300, minWidth: 180,
           overflow: "hidden",
